@@ -1,0 +1,6 @@
+{
+    "key": "dmssubnet", 
+    "name": "DMS Subnet", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Ip4Subnet"
+}

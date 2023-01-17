@@ -1,0 +1,5 @@
+$VM = '{targetServer.name}'
+Start-VM $VM
+
+$state = (Get-VM $VM).state
+Write-Host "VM state=$state"

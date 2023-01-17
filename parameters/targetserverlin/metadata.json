@@ -1,0 +1,6 @@
+{
+    "key": "targetserverlin", 
+    "name": "Target Server: Lin", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

@@ -1,0 +1,7 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+
+mkdir -p WinPE_amd64Dir
+
+iso_file=$(ls *.iso)
+
+7z x $iso_file -oWinPE_amd64Dir

@@ -1,0 +1,6 @@
+{
+    "key": "linuxrootuser", 
+    "name": "Linux: Root User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

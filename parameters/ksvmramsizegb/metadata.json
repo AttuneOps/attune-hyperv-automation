@@ -1,0 +1,6 @@
+{
+    "key": "ksvmramsizegb", 
+    "name": "KS: VM Ram Size GB", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,5 @@
+{
+    "key": "winwin10unattendedconfighyperv7working", 
+    "name": "WIN Win10 Unattended Config HyperV 7 - Working", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

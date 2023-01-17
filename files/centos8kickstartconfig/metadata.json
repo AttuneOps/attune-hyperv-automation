@@ -1,0 +1,5 @@
+{
+    "key": "centos8kickstartconfig", 
+    "name": "CentOS8 Kickstart Config", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

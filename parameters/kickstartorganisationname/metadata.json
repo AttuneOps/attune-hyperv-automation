@@ -1,0 +1,6 @@
+{
+    "key": "kickstartorganisationname", 
+    "name": "Kickstart Organisation Name", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

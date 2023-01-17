@@ -1,0 +1,17 @@
+# Directory of VM's virtual disk
+$dir_to_disk = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks"
+cd $dir_to_disk
+
+# name of VM, this just applies in Windows, it isn't applied to the OS guest itself.
+$VM = '{targetServer.name}'
+
+# Path of the VM's virtual disk
+# The full path will look something like "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\{targetServer.name}-disk1.vhdx"
+$disk_name = "$VM-disk1.vhdx"
+
+if (Test-Path -Path $disk_name -PathType Leaf) {
+    rm "$disk_name"
+    echo "Deleted disk $dir_to_disk\$disk_name"
+} else {
+    echo "No disk to delete, continuing."
+}

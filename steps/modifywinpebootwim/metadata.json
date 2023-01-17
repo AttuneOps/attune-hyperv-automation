@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "modifywinpebootwim", 
+    "links": [
+        {
+            "order": 160, 
+            "stepKey": "createbootwimmountdirectory"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "wimlibmountbootwim"
+        }, 
+        {
+            "order": 240, 
+            "stepKey": "modifystartnetcmd"
+        }, 
+        {
+            "order": 260, 
+            "stepKey": "wimlibunmountbootwim"
+        }
+    ], 
+    "name": "Modify WinPE boot.wim", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

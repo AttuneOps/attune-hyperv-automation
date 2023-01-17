@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": null, 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "ksdeleteisoonhypervhost", 
+    "name": "KS Delete ISO On Hyper-V Host", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "successExitCode": 0, 
+    "timeout": null, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

@@ -1,0 +1,50 @@
+# This script is in two parts. 
+
+# Part 1: First we declare the variables to be applied.
+# ---------------------------------------------------------
+
+# name of VM, this just applies in Windows, it isn't applied to the OS guest itself.
+$VM = '{targetServer.name}'
+
+# name of your local vswitch
+$VM_switch = (Get-VMSwitch -Name "External VM Switch").Name
+
+# Number of CPUs
+$cpu =  "{ksVmCpuCount}"
+
+# RAM in bytes
+$ram_bytes = {ksVmRamSizeGb} * 1024 * 1024 * 1024
+
+# Directory of VM's virtual disk
+$dir_to_disk = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks"
+
+# Path of the VM's virtual disk
+# The full path will look something like "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\{targetServer.name}-disk1.vhdx"
+$path_to_disk = "$dir_to_disk\$VM-disk1.vhdx"
+
+# All Synerty kickstarts are 50gb as a standard
+# VM storage, not a string, PowerShell converts this to bytes once stored into $disk_size.
+$disk_size = 50GB
+
+# Part 2: The next part are the PowerShell commands
+# ---------------------------------------------------------
+
+echo "Creating new VM $VM"
+New-VM -Name $VM
+
+# Set the CPU and start-up RAM
+echo "Setting VM with $cpu CPUs and $ram_bytes bytes RAM"
+Set-VM $VM -ProcessorCount $cpu -MemoryStartupBytes $ram_bytes
+
+# Create the new VHDX disk - the path and size.
+echo "Creating hard disk '$path_to_disk'"
+New-VHD -Path "$path_to_disk" -SizeBytes $disk_size
+
+# Add the new disk to the VM
+echo "Attaching hard disk to VM" 
+Add-VMHardDiskDrive -VMName $VM -Path "$path_to_disk"
+
+$network_adapter = (Get-VMNetworkAdapter -VMName $VM).Name
+
+echo "Connecting Network Adapter '$network_adapter' to switch '$VM_switch'"
+Connect-VMNetworkAdapter -VMName $VM -Name $network_adapter -SwitchName $VM_switch

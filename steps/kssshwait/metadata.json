@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "key": "kssshwait", 
+    "minDowntime": 0, 
+    "name": "KS SSH Wait", 
+    "postWait": 5, 
+    "preWait": 0, 
+    "serverKey": "targetserverlin", 
+    "tcpPort": 22, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}

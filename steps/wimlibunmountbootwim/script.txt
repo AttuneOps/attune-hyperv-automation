@@ -1,0 +1,2 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+wimunmount WinPE_BootImageDir --commit --check --rebuild

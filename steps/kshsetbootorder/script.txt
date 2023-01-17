@@ -1,0 +1,10 @@
+$VM = '{targetServer.name}'
+
+Write-Host "Current boot order for $VM is:"
+Get-VMBios $VM
+
+Write-Host "Setting boot order."
+Set-VMBios $VM -StartupOrder @("IDE", "CD", "LegacyNetworkAdapter", "Floppy")
+
+Write-Host "Boot order is now:"
+Get-VMBios $VM

@@ -1,0 +1,6 @@
+{
+    "key": "rpmserver", 
+    "name": "RPM Server", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "attuneosbuildserver", 
+    "name": "Attune OS Build Server", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

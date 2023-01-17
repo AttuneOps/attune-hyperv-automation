@@ -1,0 +1,4 @@
+$VM = '{targetServer.name}'
+Write-Host "$VM"
+
+Set-VMDvdDrive -VMName $VM -ControllerNumber 1 -ControllerLocation 0 -Path ""

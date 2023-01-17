@@ -1,0 +1,11 @@
+{
+    "archiveKey": "winpeisoforwindows2019hyperv", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "kswin2019deploywinpeisohyperv", 
+    "name": "KS Win2019 Deploy WinPE ISO Hyper-V", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,2 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+wimmountrw WinPE_amd64Dir/sources/boot.wim WinPE_BootImageDir

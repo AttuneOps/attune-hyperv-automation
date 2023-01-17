@@ -1,0 +1,7 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/WinPE_amd64Dir
+
+# Create new ISO with answer file, Drivers and Windows install
+mkisofs -o {ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso \
+    -b boot.img -no-emul-boot -c BOOT.CAT \
+    -iso-level 2 -udf -joliet-long -relaxed-filenames -allow-limited-size \
+    -J -l -D -N -V "KS_WIN" .

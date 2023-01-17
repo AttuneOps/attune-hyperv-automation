@@ -1,0 +1,41 @@
+$VM='{targetServer.name}'
+
+Write-Host "Deleting VM : $VM"
+
+$i=0
+$found=$false
+
+Get-VM | ForEach-Object {
+   if ($_.Name -eq $VM) {
+       Write-Host "VM $VM found"
+       $found=$true
+       return
+   }
+   $i++
+}       
+
+if ($found -eq $true) {
+    Write-Host "Checking whether VM $VM is running"
+    
+    $state = (Get-VM $VM).state
+    
+    Write-Host "VM state=$state"
+    
+    if ($state -eq "Running") {
+        Write-Host "VM is running, shutting it down".
+        Stop-VM -Name $VM
+        
+        $state = (Get-VM $VM).state
+        Write-Host "VM state=$state"
+        
+        if ($state -eq "Off") {
+            Write-Host "VM stopped successfully"
+        } else {
+            Write-Error "VM stop failed" -ErrorAction Stop
+        }
+    } else {
+        Write-Host "VM is stopped. Skipping."
+    }
+} else {
+    Write-Host "No VM $VM found. Skipping."
+}

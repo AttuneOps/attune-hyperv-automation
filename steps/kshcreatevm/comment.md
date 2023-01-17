@@ -1,0 +1,1 @@
+Assumes we have an external Hyper-V switch called "External VM Switch" at line 10.

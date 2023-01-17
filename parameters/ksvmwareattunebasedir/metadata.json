@@ -1,0 +1,6 @@
+{
+    "key": "ksvmwareattunebasedir", 
+    "name": "KS VMWare: Attune Base Dir", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

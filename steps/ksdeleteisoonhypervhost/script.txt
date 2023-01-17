@@ -1,0 +1,49 @@
+$DIRECTORY='c:\Users\Public\Documents\Hyper-V\isos\kickstart_{targetServer.fqn}'
+
+Write-Host "a"
+if (Test-Path $DIRECTORY) {
+    Write-Host "b"
+    cd "$DIRECTORY"
+    $ISO = "kickstart_{targetServer.fqn}.iso"
+    
+    $found = $false
+    Get-ChildItem | ForEach-Object {
+        $filename=$_.Name
+        echo "${i}. ${filename}"
+        
+        if (${filename} -like $ISO) {
+            Write-Host "Found ISO file ${filename}"
+            $found=$true
+            return
+        }
+        $i++
+    }
+    
+    if ($found -eq $false) {
+        Write-Host "No $ISO found at ${DIRECTORY}, skipping"
+    } else {
+        Write-Host "Deleting $ISO "
+        remove-Item $ISO
+        if (Test-Path $ISO) {
+            Write-Host "Failed"
+        } else {
+            Write-Host "Success"   
+        }
+    }
+    
+    Write-Host "Deleting folder $DIRECTORY"
+    cd ..
+    remove-Item $DIRECTORY
+    if (Test-Path $DIRECTORY) {
+        Write-Host "Failed"
+    } else {
+        Write-Host "Success"   
+    }
+    
+} else {
+    Write-Host "$DIRECTORY does not exist, skipping."   
+}
+
+Write-Host "z"
+
+

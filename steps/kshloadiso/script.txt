@@ -1,0 +1,28 @@
+$VM = '{targetServer.name}'
+$user="{hypervHostUser.user}"
+
+$directory='c:\Users\Public\Documents\Hyper-V\isos\kickstart_{targetServer.fqn}'
+cd "$directory"
+
+$ISO = "kickstart_{targetServer.fqn}.iso"
+
+$found = $false
+Get-ChildItem | ForEach-Object {
+    $filename=$_.Name
+    echo "${i}. ${filename}"
+    
+    if (${filename} -like $ISO) {
+        Write-Host "Found ISO file ${filename}"
+        $winpe_iso=${filename}
+        $found=$true
+        return
+    }
+    $i++
+}
+
+if ($found -eq $false) {
+    Write-Error "No $ISO found at ${directory}" -ErrorAction Stop
+} else {
+    Write-Host "Attaching ${winpe_iso} to first DVD Drive"
+    Set-VMDvdDrive -VMName $VM -ControllerNumber 1 -ControllerLocation 0 -Path $winpe_iso
+}

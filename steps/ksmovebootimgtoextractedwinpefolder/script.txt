@@ -1,0 +1,3 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+
+mv boot.img WinPE_amd64Dir

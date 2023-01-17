@@ -1,0 +1,5 @@
+{
+    "key": "winwin2019unattendedconfighyperv", 
+    "name": "WIN Win2019 Unattended Config HyperV", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

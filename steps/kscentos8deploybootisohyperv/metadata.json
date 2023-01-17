@@ -1,0 +1,11 @@
+{
+    "archiveKey": "centos8bootisov842105", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "kscentos8deploybootisohyperv", 
+    "name": "KS CentOS8 Deploy Boot ISO Hyper-V", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

@@ -1,0 +1,3 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+
+mv autounattend.xml WinPE_amd64Dir

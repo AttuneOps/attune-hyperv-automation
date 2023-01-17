@@ -1,0 +1,6 @@
+DIR="{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}"
+[[ -d ${DIR} ]] && rm -rf ${DIR} && echo "Removed ${DIR}" || \
+    echo "No directory to remove."
+
+ISO="{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso"
+[[ -f ${ISO} ]] && rm -fv ${ISO} || echo "No ISO to remove."

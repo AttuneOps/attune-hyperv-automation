@@ -1,0 +1,10 @@
+{
+    "fileName": null, 
+    "formatKey": null, 
+    "key": "winpeisoforwindows2019hyperv", 
+    "md5": null, 
+    "name": "WinPE ISO for Windows 2019 Hyper-V", 
+    "remoteUri": null, 
+    "size": null, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

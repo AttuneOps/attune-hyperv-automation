@@ -1,0 +1,66 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "winpekickstartwin2019parallelshyperv", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "kswin2019deploywinpeisohyperv"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "ksextractwinpeiso"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "ksextractwinpebootimg"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "ksmovebootimgtoextractedwinpefolder"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "kshypervdeploywin2019unattendedconfig"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "ksmoveautounattendxmltoextractedwinpefolder"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "modifywinpebootwim"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "kswinpecreatebootiso"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "kshypervrecreatewinvirtualmachine"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "ksdeleteisoonhypervhost"
+        }, 
+        {
+            "order": 260, 
+            "stepKey": "winreboot"
+        }, 
+        {
+            "order": 280, 
+            "stepKey": "winrmhttpswait120s"
+        }
+    ], 
+    "name": "WinPE Kickstart Win2019+Parallels+HyperV", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

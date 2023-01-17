@@ -1,0 +1,24 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+
+cd WinPE_BootImageDir/Windows/System32
+
+startnet_file="startnet.cmd"
+
+interface_alias="{ksWindowsInterfaceAlias.value}"
+
+netsh_set_address_line="netsh.exe interface ipv4 set address $interface_alias static {targetServer.ip} {targetSubnet.netmask} {targetSubnet.gateway}"
+sed -i "s/netsh.exe interface ipv4 set address Ethernet static.*/$netsh_set_address_line/" $startnet_file
+
+# gateway is the DNS
+netsh_add_dns_line="netsh.exe interface ipv4 add dnsservers $interface_alias address={targetSubnet.gateway} index=1"
+sed -i "s/netsh.exe interface ipv4 add dnsservers Ethernet address=.*/$netsh_add_dns_line/" $startnet_file
+
+# The attune server also hosts the Samba server. 
+set_samba_address_line="set sambaIPaddress={attuneOsBuildServer.ip}"
+sed -i "s/set sambaIPaddress=.*/$set_samba_address_line/" $startnet_file
+
+cd_line='cd .\\{sambaWindowsDirectory.value}\\'
+sed -i "s:cd \.\\\.*:$cd_line:" startnet.cmd 
+
+# remove the ^M
+sed -i -e "s/\r//g" startnet.cmd

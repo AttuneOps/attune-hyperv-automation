@@ -1,0 +1,6 @@
+{
+    "key": "kslinuxdiskfirstletter", 
+    "name": "KS Linux: Disk First Letter", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

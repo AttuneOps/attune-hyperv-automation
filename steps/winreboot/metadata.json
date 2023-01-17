@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "winreboot", 
+    "links": [
+        {
+            "order": 20, 
+            "stepKey": "winschedulereboot"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "winrebootwait"
+        }
+    ], 
+    "name": "WIN Reboot", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

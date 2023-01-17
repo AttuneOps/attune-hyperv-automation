@@ -1,0 +1,40 @@
+{
+    "archiveKey": "winwin10unattendedconfighyperv7working", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "kshypervdeploywin10unattendedconfig", 
+    "makoFileNames": [
+        "autounattend.xml"
+    ], 
+    "makoParameters": [
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "subnet", 
+            "parameterKey": "targetsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "adminUser", 
+            "parameterKey": "windowsadministrator", 
+            "parameterType": "c.s.s.b.phv.WinOsCred"
+        }, 
+        {
+            "name": "kickstartOrganisationName", 
+            "parameterKey": "kickstartorganisationname", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "ksWindowsInterfaceAlias", 
+            "parameterKey": "kswindowsinterfacealias", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "KS Hyper-V Deploy Win10 Unattended Config", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

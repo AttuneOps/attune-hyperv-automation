@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "hypervblueprints", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kickstartcentos84parallelshyperv"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "winpekickstartwin10parallelshyperv"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "winpekickstartwin2019parallelshyperv"
+        }
+    ], 
+    "name": "Hyper-V Blueprints", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

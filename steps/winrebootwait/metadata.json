@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "key": "winrebootwait", 
+    "minDowntime": 1, 
+    "name": "WIN Reboot Wait", 
+    "postWait": 15, 
+    "preWait": 0, 
+    "serverKey": "targetserverwin", 
+    "tcpPort": 5986, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}

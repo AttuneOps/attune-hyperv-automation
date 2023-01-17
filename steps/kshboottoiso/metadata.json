@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": null, 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "kshboottoiso", 
+    "name": "KSH Boot to ISO", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "successExitCode": 0, 
+    "timeout": null, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

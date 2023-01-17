@@ -1,0 +1,6 @@
+{
+    "key": "kswindowsinterfacealias", 
+    "name": "KS: Windows Interface Alias", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

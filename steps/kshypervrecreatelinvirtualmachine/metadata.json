@@ -1,0 +1,66 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "kshypervrecreatelinvirtualmachine", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kshstopvm"
+        }, 
+        {
+            "order": 20, 
+            "stepKey": "kshunloadisofromvm"
+        }, 
+        {
+            "order": 40, 
+            "stepKey": "kshdeletevm"
+        }, 
+        {
+            "order": 60, 
+            "stepKey": "kshdeleteharddisk"
+        }, 
+        {
+            "order": 80, 
+            "stepKey": "kshcreatevm"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "kshsetbootorder"
+        }, 
+        {
+            "order": 120, 
+            "stepKey": "ksdeleteisoonhypervhost"
+        }, 
+        {
+            "order": 140, 
+            "stepKey": "kshcreateisofolder"
+        }, 
+        {
+            "order": 160, 
+            "stepKey": "kshcopyitemisotohyperv"
+        }, 
+        {
+            "order": 180, 
+            "stepKey": "kshchecksha256sum"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "kshloadiso"
+        }, 
+        {
+            "order": 220, 
+            "stepKey": "kshboottoiso"
+        }, 
+        {
+            "order": 240, 
+            "stepKey": "kssshwait"
+        }, 
+        {
+            "order": 260, 
+            "stepKey": "kshunloadisofromvm"
+        }
+    ], 
+    "name": "KS Hyper-V Recreate Lin Virtual Machine", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

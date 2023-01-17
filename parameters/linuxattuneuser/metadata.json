@@ -1,0 +1,6 @@
+{
+    "key": "linuxattuneuser", 
+    "name": "Linux: Attune User", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

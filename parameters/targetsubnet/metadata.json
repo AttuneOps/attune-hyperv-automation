@@ -1,0 +1,6 @@
+{
+    "key": "targetsubnet", 
+    "name": "Target Subnet", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Ip4Subnet"
+}

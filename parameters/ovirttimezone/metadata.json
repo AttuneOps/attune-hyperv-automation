@@ -1,0 +1,6 @@
+{
+    "key": "ovirttimezone", 
+    "name": "oVirt: TimeZone", 
+    "showInPlan": false, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": null, 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "kshcreatevm", 
+    "name": "KSH Create VM", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "successExitCode": 0, 
+    "timeout": null, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}
