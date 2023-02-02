@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "winpekickstartwin10parallelshyperv", 
+    "key": "winpekickstartwin10hyperv", 
     "links": [
         {
             "order": 0, 
@@ -61,6 +61,6 @@
             "stepKey": "winrmhttpswait120s"
         }
     ], 
-    "name": "WinPE Kickstart Win10+Parallels+HyperV", 
+    "name": "WinPE Kickstart Win10+HyperV", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

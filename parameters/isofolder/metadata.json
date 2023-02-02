@@ -1,0 +1,6 @@
+{
+    "key": "isofolder", 
+    "name": "Iso Folder", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

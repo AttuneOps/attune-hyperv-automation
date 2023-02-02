@@ -1,8 +1,6 @@
-$DIRECTORY='c:\Users\Public\Documents\Hyper-V\isos\kickstart_{targetServer.fqn}'
+$DIRECTORY='{isoFolder}\kickstart_{targetServer.fqn}'
 
-Write-Host "a"
 if (Test-Path $DIRECTORY) {
-    Write-Host "b"
     cd "$DIRECTORY"
     $ISO = "kickstart_{targetServer.fqn}.iso"
     
@@ -43,7 +41,5 @@ if (Test-Path $DIRECTORY) {
 } else {
     Write-Host "$DIRECTORY does not exist, skipping."   
 }
-
-Write-Host "z"
 
 

@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "enablewsmanonattune", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "ewoainstallgssntlmssp"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ewoainstallpswsmanpromptedresponse"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "testpromptedresponse"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ewoainstallpswsman"
+        }
+    ], 
+    "name": "Enable WSMan on Attune", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

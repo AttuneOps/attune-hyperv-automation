@@ -15,12 +15,10 @@ $cpu =  "{ksVmCpuCount}"
 # RAM in bytes
 $ram_bytes = {ksVmRamSizeGb} * 1024 * 1024 * 1024
 
-# Directory of VM's virtual disk
-$dir_to_disk = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks"
-
 # Path of the VM's virtual disk
-# The full path will look something like "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\{targetServer.name}-disk1.vhdx"
-$path_to_disk = "$dir_to_disk\$VM-disk1.vhdx"
+# The full path will look something like 
+# "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks{targetServer.name}-disk1.vhdx"
+$path_to_disk = "{virtualHardDiskFolder}\$VM-disk1.vhdx"
 
 # All Synerty kickstarts are 50gb as a standard
 # VM storage, not a string, PowerShell converts this to bytes once stored into $disk_size.

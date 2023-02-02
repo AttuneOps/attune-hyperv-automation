@@ -1,10 +1,10 @@
 {
-    "fileName": null, 
-    "formatKey": null, 
+    "fileName": "43_v1_CentOS8_Boot_ISO_v8_4_2105.zip", 
+    "formatKey": "tar", 
     "key": "centos8bootisov842105", 
-    "md5": null, 
+    "md5": "6190bcbe5adc4579115853057d1ea37d", 
     "name": "CentOS8 Boot ISO v8.4.2105", 
     "remoteUri": null, 
-    "size": null, 
+    "size": 853903360, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

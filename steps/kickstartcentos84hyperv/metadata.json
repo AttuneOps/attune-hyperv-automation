@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "kickstartcentos84parallelshyperv", 
+    "key": "kickstartcentos84hyperv", 
     "links": [
         {
             "order": 0, 
@@ -41,6 +41,6 @@
             "stepKey": "kssshwait"
         }
     ], 
-    "name": "Kickstart CentOS8.4+Parallels+HyperV", 
+    "name": "Kickstart CentOS8.4+HyperV", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

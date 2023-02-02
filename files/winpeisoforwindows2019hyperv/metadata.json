@@ -1,10 +1,10 @@
 {
-    "fileName": null, 
-    "formatKey": null, 
+    "fileName": "32_v1_WinPE_ISO_for_Windows_2019_Hyper_V.zip", 
+    "formatKey": "zip", 
     "key": "winpeisoforwindows2019hyperv", 
-    "md5": null, 
+    "md5": "75c57df9a33da76621d46500c894b628", 
     "name": "WinPE ISO for Windows 2019 Hyper-V", 
     "remoteUri": null, 
-    "size": null, 
+    "size": 333531264, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

@@ -1,0 +1,6 @@
+{
+    "key": "virtualharddiskfolder", 
+    "name": "Virtual Hard Disk Folder", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

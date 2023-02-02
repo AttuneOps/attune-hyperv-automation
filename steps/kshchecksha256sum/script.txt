@@ -23,7 +23,7 @@ $credObject = New-Object System.Management.Automation.PSCredential `
 $session = New-PSSession -ComputerName '{hypervHost.name}' `
     -Credential $credObject -Authentication Negotiate
 
-$file_path = "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\kickstart_{targetServer.fqn}\\$ISO"
+$file_path = "{isoFolder}\kickstart_{targetServer.fqn}\$ISO"
 Write-Host "file_path=$file_path"
 
 $copied_file_sha256 = (Invoke-Command -Session $session -ScriptBlock { 

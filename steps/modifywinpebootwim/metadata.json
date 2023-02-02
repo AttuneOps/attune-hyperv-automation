@@ -13,11 +13,11 @@
             "stepKey": "wimlibmountbootwim"
         }, 
         {
-            "order": 240, 
-            "stepKey": "modifystartnetcmd"
+            "order": 290, 
+            "stepKey": "pushstartnetcmd"
         }, 
         {
-            "order": 260, 
+            "order": 340, 
             "stepKey": "wimlibunmountbootwim"
         }
     ], 

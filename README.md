@@ -7,19 +7,25 @@
 ## Project Blueprints
 
 
-### WinPE Kickstart Win10+Parallels+HyperV
-
-
-### WIN Reboot
-
-
-### WinPE Kickstart Win2019+Parallels+HyperV
-
-
-### Kickstart CentOS8.4+Parallels+HyperV
+### Enable WSMan on Attune
 
 
 ### Hyper-V Blueprints
+
+
+### Kickstart CentOS8.4+HyperV
+
+
+### kooi test
+
+
+### WinPE Kickstart Win10+HyperV
+
+
+### WinPE Kickstart Win2019+HyperV
+
+
+### WIN Reboot
 
 
 
@@ -30,27 +36,31 @@
 
 | Name | Type | Script Reference |
 | ---- | ---- | ---------------- |
-| Linux: Root User | Linux/Unix Credential | `linuxrootuser` |
-| HyperV Host | Windows Node | `hypervhost` |
-| Target Server: Win | Windows Node | `targetserverwin` |
-| KS: VM CPU Count | Text | `ksvmcpucount` |
-| Target Server: Lin | Linux/Unix Node | `targetserverlin` |
+| Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` |
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` |
-| KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |
-| Windows: Administrator | Windows Credential | `windowsadministrator` |
-| Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |
+| HyperV Host | Windows Node | `hypervhost` |
 | HyperV Host User | Windows Credential | `hypervhostuser` |
-| Target Subnet | Network IPv4 Subnet | `targetsubnet` |
-| KS: VM Ram Size GB | Text | `ksvmramsizegb` |
-| RPM Server | Linux/Unix Node | `rpmserver` |
+| Iso Folder | Text | `isofolder` |
 | Kickstart Organisation Name | Text | `kickstartorganisationname` |
 | KS Linux: Disk First Letter | Text | `kslinuxdiskfirstletter` |
-| Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` |
-| Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` |
-| Target Server | Basic Node | `targetserver` |
-| Samba Windows Directory | Text | `sambawindowsdirectory` |
+| KS: VM CPU Count | Text | `ksvmcpucount` |
+| KS: VM Ram Size GB | Text | `ksvmramsizegb` |
+| KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |
 | KS: Windows Interface Alias | Text | `kswindowsinterfacealias` |
+| Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` |
+| Linux: Root User | Linux/Unix Credential | `linuxrootuser` |
 | oVirt: TimeZone | Text | `ovirttimezone` |
+| RPM Server | Linux/Unix Node | `rpmserver` |
+| Samba Windows Directory | Text | `sambawindowsdirectory` |
+| Target Server | Basic Node | `targetserver` |
+| Target Server: Lin | Linux/Unix Node | `targetserverlin` |
+| Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |
+| Target Server: Win | Windows Node | `targetserverwin` |
+| Target Subnet | Network IPv4 Subnet | `targetsubnet` |
+| test parameter | Text | `testparameter` |
+| Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |
+| Windows: Administrator | Windows Credential | `windowsadministrator` |
+| WinPE Samba Server | Linux/Unix Node | `winpesambaserver` |
 
 
 
@@ -60,12 +70,13 @@
 
 | Name | Type |
 | ---- | ---- |
-| WinPE ISO for Windows 2019 Hyper-V | Large Archives |
-| WinPE ISO for Windows 10 Hyper-V | Large Archives |
-| CentOS8 Kickstart Config | Version Controlled Files |
-| WIN Win2019 Unattended Config HyperV | Version Controlled Files |
-| WIN Win10 Unattended Config HyperV 7 - Working | Version Controlled Files |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives |
+| CentOS8 Kickstart Config | Version Controlled Files |
+| WinPE ISO for Windows 10 Hyper-V | Large Archives |
+| WinPE ISO for Windows 2019 Hyper-V | Large Archives |
+| WinPE startnet.cmd | Version Controlled Files |
+| WIN Win10 Unattended Config HyperV 7 - Working | Version Controlled Files |
+| WIN Win2019 Unattended Config HyperV | Version Controlled Files |
 
 
 

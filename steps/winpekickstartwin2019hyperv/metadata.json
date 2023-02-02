@@ -2,7 +2,7 @@
     "concurrency": 1, 
     "enabled": true, 
     "isBlueprint": true, 
-    "key": "winpekickstartwin2019parallelshyperv", 
+    "key": "winpekickstartwin2019hyperv", 
     "links": [
         {
             "order": 0, 
@@ -61,6 +61,6 @@
             "stepKey": "winrmhttpswait120s"
         }
     ], 
-    "name": "WinPE Kickstart Win2019+Parallels+HyperV", 
+    "name": "WinPE Kickstart Win2019+HyperV", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

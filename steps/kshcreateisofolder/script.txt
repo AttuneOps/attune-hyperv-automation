@@ -1,15 +1,14 @@
-$ISO_FOLDER = "C:\Users\Public\Documents\Hyper-V\isos"
-$KICKSTART_FOLDER = "C:\Users\Public\Documents\Hyper-V\isos\kickstart_{targetServer.fqn}"
+$KICKSTART_FOLDER = "{isoFolder}\kickstart_{targetServer.fqn}"
 
-if (Test-Path $ISO_FOLDER) {
-    Write-Host "ISO folder $ISO_FOLDER exists, good"
+if (Test-Path "{isoFolder}") {
+    Write-Host "ISO folder {isoFolder} exists, good"
 } else {
-    Write-Host "ISO folder $ISO_FOLDER deos not exist, creating"
-    New-Item $ISO_FOLDER -ItemType Directory
-    if (Test-Path $ISO_FOLDER) {
-        Write-Host "ISO folder $ISO_FOLDER created."
+    Write-Host "ISO folder {isoFolder} deos not exist, creating"
+    New-Item "{isoFolder}" -ItemType Directory
+    if (Test-Path "{isoFolder}") {
+        Write-Host "ISO folder {isoFolder} created."
     } else {
-        Write-Error "Failed to create ISO folder $ISO_FOLDER" -ErrorAction Stop
+        Write-Error "Failed to create ISO folder {isoFolder}" -ErrorAction Stop
     }
 }
 

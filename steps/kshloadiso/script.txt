@@ -1,7 +1,7 @@
 $VM = '{targetServer.name}'
 $user="{hypervHostUser.user}"
 
-$directory='c:\Users\Public\Documents\Hyper-V\isos\kickstart_{targetServer.fqn}'
+$directory='{isoFolder}\kickstart_{targetServer.fqn}'
 cd "$directory"
 
 $ISO = "kickstart_{targetServer.fqn}.iso"

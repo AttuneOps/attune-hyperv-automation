@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "kooitest", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "ktwinrmtest"
+        }
+    ], 
+    "name": "kooi test", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

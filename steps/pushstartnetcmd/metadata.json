@@ -1,0 +1,40 @@
+{
+    "archiveKey": "winpestartnetcmd", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/WinPE_BootImageDir/Windows/System32", 
+    "enabled": true, 
+    "key": "pushstartnetcmd", 
+    "makoFileNames": [
+        "startnet.cmd"
+    ], 
+    "makoParameters": [
+        {
+            "name": "ksWindowsInterfaceAlias", 
+            "parameterKey": "kswindowsinterfacealias", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "winpeSambaServer", 
+            "parameterKey": "winpesambaserver", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "targetSubnet", 
+            "parameterKey": "targetsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "sambaWindowsDirectory", 
+            "parameterKey": "sambawindowsdirectory", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "Push startnet.cmd", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

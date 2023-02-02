@@ -1,6 +1,5 @@
 # Directory of VM's virtual disk
-$dir_to_disk = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks"
-cd $dir_to_disk
+cd "{virtualHardDiskFolder}"
 
 # name of VM, this just applies in Windows, it isn't applied to the OS guest itself.
 $VM = '{targetServer.name}'
@@ -11,7 +10,7 @@ $disk_name = "$VM-disk1.vhdx"
 
 if (Test-Path -Path $disk_name -PathType Leaf) {
     rm "$disk_name"
-    echo "Deleted disk $dir_to_disk\$disk_name"
+    echo "Deleted disk {virtualHardDiskFolder}\$disk_name"
 } else {
     echo "No disk to delete, continuing."
 }

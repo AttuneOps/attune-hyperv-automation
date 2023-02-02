@@ -1,0 +1,5 @@
+{
+    "key": "winpestartnetcmd", 
+    "name": "WinPE startnet.cmd", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

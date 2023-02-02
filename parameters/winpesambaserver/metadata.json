@@ -1,0 +1,6 @@
+{
+    "key": "winpesambaserver", 
+    "name": "WinPE Samba Server", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

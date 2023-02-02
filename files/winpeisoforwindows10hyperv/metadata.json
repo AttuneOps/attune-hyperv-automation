@@ -1,10 +1,10 @@
 {
-    "fileName": null, 
-    "formatKey": null, 
+    "fileName": "23_v1_WinPE_ISO_for_Windows_10_Hyper_V.zip", 
+    "formatKey": "zip", 
     "key": "winpeisoforwindows10hyperv", 
-    "md5": null, 
+    "md5": "302c9aa17c1d58092a44d39f4c539515", 
     "name": "WinPE ISO for Windows 10 Hyper-V", 
     "remoteUri": null, 
-    "size": null, 
+    "size": 287929901, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }
