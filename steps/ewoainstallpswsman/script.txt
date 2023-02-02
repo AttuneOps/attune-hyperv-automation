@@ -1,3 +1,1 @@
-pwsh <<'EOF'
-Install-Module -Name PSWSMan
-EOF
+echo "A" | sudo pwsh -Command "Install-Module -Name PSWSMan"

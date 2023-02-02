@@ -1,3 +1,0 @@
-pwsh <<'EOF'
-Install-Module -Name PSWSMan
-EOF

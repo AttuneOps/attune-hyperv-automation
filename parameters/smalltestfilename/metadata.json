@@ -1,0 +1,6 @@
+{
+    "key": "smalltestfilename", 
+    "name": "Small Test File Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

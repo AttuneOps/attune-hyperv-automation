@@ -9,16 +9,24 @@
             "stepKey": "ewoainstallgssntlmssp"
         }, 
         {
-            "order": 100, 
-            "stepKey": "ewoainstallpswsmanpromptedresponse"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "testpromptedresponse"
-        }, 
-        {
             "order": 200, 
             "stepKey": "ewoainstallpswsman"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ewoacheckpswsmaninstalled"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "ewoaruninstallwsman"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "ewoaaddhypervhosttoetchosts"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "ewoatestcopyitem"
         }
     ], 
     "name": "Enable WSMan on Attune", 

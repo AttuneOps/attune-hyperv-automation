@@ -1,14 +1,14 @@
 {
     "enabled": true, 
     "interpreter": 2, 
-    "interpreterCommand": "", 
+    "interpreterCommand": null, 
     "interpreterScriptExt": null, 
-    "interpreterScriptSyntax": "", 
-    "key": "kshcreateisofolder", 
-    "name": "KSH Create ISO Folder", 
+    "interpreterScriptSyntax": "powershell", 
+    "key": "kshcreatekickstartfolder", 
+    "name": "KSH Create Kickstart Folder", 
     "osCredKey": "hypervhostuser", 
     "serverKey": "hypervhost", 
     "successExitCode": 0, 
-    "timeout": 60, 
+    "timeout": null, 
     "type": "com.servertribe.attune.tuples.StepWinRmTuple"
 }

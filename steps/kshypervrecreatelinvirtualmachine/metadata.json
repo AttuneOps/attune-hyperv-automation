@@ -34,7 +34,7 @@
         }, 
         {
             "order": 140, 
-            "stepKey": "kshcreateisofolder"
+            "stepKey": "kshcreatekickstartfolder"
         }, 
         {
             "order": 160, 

@@ -1,0 +1,2 @@
+sudo pwsh -Command "Get-Module -ListAvailable" \
+    | grep -i "PSWSMan"

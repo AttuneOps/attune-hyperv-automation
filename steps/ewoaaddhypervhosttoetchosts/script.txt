@@ -1,0 +1,17 @@
+HOSTS_FILE="/etc/hosts"
+
+ENTRY="{hypervHost.ip}   {hypervHost.hostname}   {hypervHost.hostname}.{hypervHost.domain}"
+
+if grep -iq "{hypervHost.hostname}" "${HOSTS_FILE}"
+then
+    echo "Replacing hypervHost.hostname} entry in ${HOSTS_FILE}"
+    echo "${ENTRY}"
+    
+    sed -i "s/.*{hypervHost.hostname}.*/${ENTRY}/" "${HOSTS_FILE}"
+else
+    echo "Appending this entry to ${HOSTS_FILE}"
+    echo "${ENTRY}"
+    
+    echo "${ENTRY}" \
+        >> "${HOSTS_FILE}"
+fi

@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "etcitestcopyitemforsmallfile", 
+    "name": "ETCI Test Copy-Item for Small File", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

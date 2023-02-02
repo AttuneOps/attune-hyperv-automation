@@ -1,0 +1,36 @@
+$DIRECTORY='{isoFolder}'
+
+if (Test-Path $DIRECTORY) {
+    cd "$DIRECTORY"
+
+    $found = $false
+    Get-ChildItem | ForEach-Object {
+        $filename=$_.Name
+        echo "${i}. ${filename}"
+        
+        if (${filename} -like "{smallTestFileName}") {
+            Write-Host "Found small file ${filename}"
+            $found=$true
+            return
+        }
+        $i++
+    }
+    
+    if ($found -eq $false) {
+        Write-Host "No small file {smallTestFileName} found at ${DIRECTORY}, skipping"
+    } else {
+        Write-Host "Deleting {smallTestFileName} "
+        remove-Item "{smallTestFileName}"
+        if (Test-Path "{smallTestFileName}") {
+            Write-Host "Failed"
+        } else {
+            Write-Host "Success"   
+        }
+    }
+
+    
+} else {
+    Write-Host "$DIRECTORY does not exist, skipping."   
+}
+
+

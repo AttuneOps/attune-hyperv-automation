@@ -61,6 +61,7 @@
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |
 | Windows: Administrator | Windows Credential | `windowsadministrator` |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` |
+| Small Test File Name | Text | `smalltestfilename` |
 
 
 

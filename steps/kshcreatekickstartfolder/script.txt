@@ -1,0 +1,11 @@
+$KICKSTART_FOLDER = "{isoFolder}\kickstart_{targetServer.fqn}"
+
+if (Test-Path $KICKSTART_FOLDER) {
+  Write-Host "Kickstart folder $KICKSTART_FOLDER exists, good"
+} else {
+  Write-Host "Kickstart folder $KICKSTART_FOLDER deos not exist, creating"
+  New-Item $KICKSTART_FOLDER -ItemType Directory
+  if (Test-Path $KICKSTART_FOLDER) {
+    Write-Host "Kickstart folder $KICKSTART_FOLDER created."
+  }
+}

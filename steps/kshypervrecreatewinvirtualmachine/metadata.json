@@ -29,31 +29,35 @@
             "stepKey": "ksdeleteisoonhypervhost"
         }, 
         {
-            "order": 120, 
+            "order": 150, 
             "stepKey": "kshcreateisofolder"
         }, 
         {
-            "order": 140, 
+            "order": 200, 
+            "stepKey": "kshcreatekickstartfolder"
+        }, 
+        {
+            "order": 250, 
             "stepKey": "kshcopyitemisotohyperv"
         }, 
         {
-            "order": 160, 
+            "order": 300, 
             "stepKey": "kshchecksha256sum"
         }, 
         {
-            "order": 180, 
+            "order": 350, 
             "stepKey": "kshloadiso"
         }, 
         {
-            "order": 200, 
+            "order": 400, 
             "stepKey": "kshboottoiso"
         }, 
         {
-            "order": 220, 
+            "order": 450, 
             "stepKey": "winrmhttpswait120s"
         }, 
         {
-            "order": 240, 
+            "order": 500, 
             "stepKey": "kshunloadisofromvm"
         }
     ], 
