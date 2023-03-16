@@ -26,7 +26,15 @@
         }, 
         {
             "order": 400, 
-            "stepKey": "ewoatestcopyitem"
+            "stepKey": "kshcreateisofolder"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "ewoatestcopyitemsmallfile"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "ewoatestcopyitemlargefile"
         }
     ], 
     "name": "Enable WSMan on Attune", 

@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "etcitestcopyitemforsmallfile", 
-    "name": "ETCI Test Copy-Item for Small File", 
+    "key": "etcsfattunecreatesmalltestfile", 
+    "name": "ETCSF Attune Create Small Test File", 
     "osCredKey": "linuxattuneuser", 
     "serverKey": "attuneosbuildserver", 
     "successExitCode": 0, 

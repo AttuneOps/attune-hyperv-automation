@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "ewoatestcopyitemlargefile", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "etclfattunecreatelargetestfile"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "etclftestcopyitemforlargefile"
+        }
+    ], 
+    "name": "EWOA Test Copy-Item Large File", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

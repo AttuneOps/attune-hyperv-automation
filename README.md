@@ -16,9 +16,6 @@
 ### Kickstart CentOS8.4+HyperV
 
 
-### kooi test
-
-
 ### WinPE Kickstart Win10+HyperV
 
 
@@ -47,11 +44,13 @@
 | KS: VM Ram Size GB | Text | `ksvmramsizegb` |
 | KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |
 | KS: Windows Interface Alias | Text | `kswindowsinterfacealias` |
+| Large Test File Name | Text | `largetestfilename` |
 | Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` |
 | Linux: Root User | Linux/Unix Credential | `linuxrootuser` |
 | oVirt: TimeZone | Text | `ovirttimezone` |
 | RPM Server | Linux/Unix Node | `rpmserver` |
 | Samba Windows Directory | Text | `sambawindowsdirectory` |
+| Small Test File Name | Text | `smalltestfilename` |
 | Target Server | Basic Node | `targetserver` |
 | Target Server: Lin | Linux/Unix Node | `targetserverlin` |
 | Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |
@@ -61,7 +60,6 @@
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |
 | Windows: Administrator | Windows Credential | `windowsadministrator` |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` |
-| Small Test File Name | Text | `smalltestfilename` |
 
 
 

@@ -1,0 +1,8 @@
+$CLIENT = New-Object System.Net.WebClient
+
+$ISO_FILE = "kickstart_{targetServer.fqn}.iso"
+
+$URL = "http://{attuneOsBuildServer.ip}:8050/$ISO_FILE"
+$PATH = "c:\ProgramData\Microsoft\Windows\isos\kickstart_{targetServer.fqn}\$ISO_FILE"
+
+$CLIENT.DownloadFile($URL, $PATH)

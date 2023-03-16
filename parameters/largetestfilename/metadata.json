@@ -1,0 +1,6 @@
+{
+    "key": "largetestfilename", 
+    "name": "Large Test File Name", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

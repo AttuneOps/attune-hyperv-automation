@@ -1,8 +1,8 @@
 {
     "enabled": true, 
     "interpreter": 1, 
-    "key": "etciattuneremovesmalltestfile", 
-    "name": "ETCI Attune Remove Small Test File", 
+    "key": "etclfattunecreatelargetestfile", 
+    "name": "ETCLF Attune Create Large Test File", 
     "osCredKey": "linuxattuneuser", 
     "serverKey": "attuneosbuildserver", 
     "successExitCode": 0, 

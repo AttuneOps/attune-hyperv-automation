@@ -12,7 +12,8 @@ $original_sha256 = (Get-FileHash $ISO).Hash
 Write-Host "original_sha256=$original_sha256"
 
 # $userName looks like 'ko1hprv1vs2\kooi'
-$userName = '{hypervHost.name}\{hypervHostUser.user}'
+$userName = '{hypervHost.hostname}\{hypervHostUser.user}'
+Write-Host "userName=$userName"
 
 $userPassword = '{hypervHostUser.password}'
 $secStringPassword = ConvertTo-SecureString $userPassword -AsPlainText -Force
@@ -20,7 +21,7 @@ $secStringPassword = ConvertTo-SecureString $userPassword -AsPlainText -Force
 $credObject = New-Object System.Management.Automation.PSCredential `
     ($userName, $secStringPassword)
 
-$session = New-PSSession -ComputerName '{hypervHost.name}' `
+$session = New-PSSession -ComputerName '{hypervHost.hostname}' `
     -Credential $credObject -Authentication Negotiate
 
 $file_path = "{isoFolder}\kickstart_{targetServer.fqn}\$ISO"

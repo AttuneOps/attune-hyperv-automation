@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "ewoatestcopyitemsmallfile", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "etcsfattunecreatesmalltestfile"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "etcsftestcopyitemforsmallfile"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "etcsfattuneremovesmalltestfile"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "etcsfhypervhostremovesmalltestfile"
+        }
+    ], 
+    "name": "EWOA Test Copy-Item Small File", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

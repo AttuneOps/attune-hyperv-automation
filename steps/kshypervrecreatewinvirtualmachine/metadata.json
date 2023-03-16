@@ -38,26 +38,26 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "kshcopyitemisotohyperv"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "kshchecksha256sum"
+            "stepKey": "kshhypervpulliso"
         }, 
         {
             "order": 350, 
-            "stepKey": "kshloadiso"
+            "stepKey": "kshchecksha256sum"
         }, 
         {
             "order": 400, 
-            "stepKey": "kshboottoiso"
+            "stepKey": "kshloadiso"
         }, 
         {
             "order": 450, 
-            "stepKey": "winrmhttpswait120s"
+            "stepKey": "kshboottoiso"
         }, 
         {
             "order": 500, 
+            "stepKey": "winrmhttpswait120s"
+        }, 
+        {
+            "order": 550, 
             "stepKey": "kshunloadisofromvm"
         }
     ], 

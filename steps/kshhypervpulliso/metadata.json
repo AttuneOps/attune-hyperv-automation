@@ -4,11 +4,11 @@
     "interpreterCommand": "", 
     "interpreterScriptExt": null, 
     "interpreterScriptSyntax": "", 
-    "key": "ktwinrmtest", 
-    "name": "KT WinRM Test", 
+    "key": "kshhypervpulliso", 
+    "name": "KSH Hyper-V Pull ISO", 
     "osCredKey": "hypervhostuser", 
     "serverKey": "hypervhost", 
     "successExitCode": 0, 
-    "timeout": 60, 
+    "timeout": 3600, 
     "type": "com.servertribe.attune.tuples.StepWinRmTuple"
 }
