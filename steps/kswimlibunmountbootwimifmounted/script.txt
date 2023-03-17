@@ -1,0 +1,8 @@
+if pgrep wimmountrw
+then
+    echo "Unmounting {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/WinPE_BootImageDir"
+    cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+    wimunmount WinPE_BootImageDir --commit --check --rebuild
+else
+    echo "Not mounted, skipping."
+fi
