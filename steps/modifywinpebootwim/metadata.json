@@ -18,6 +18,10 @@
         }, 
         {
             "order": 340, 
+            "stepKey": "mwbprintstartnetcmd"
+        }, 
+        {
+            "order": 390, 
             "stepKey": "wimlibunmountbootwim"
         }
     ], 

@@ -8,7 +8,7 @@ netsh.exe interface ipv4 set address ^
     
 netsh.exe interface ipv4 add dnsservers ^
     name="${ksWindowsInterfaceAlias}" ^
-    address=${targetServer.ip} ^
+    address=${targetSubnet.dns1} ^
     index=1
 
 ipconfig /all
@@ -19,7 +19,7 @@ set sambaIPaddress=${winpeSambaServer.ip}
 :pingtheserver
 ping %sambaIPaddress% | find "TTL" > nul
 if errorlevel 1 (
-    echo waiting for network address...
+    echo waiting for pingable Samba IP address ${winpeSambaServer.ip}...
     ping localhost -n 2 >NUL
     goto :pingtheserver
 ) else (

@@ -1,0 +1,2 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/WinPE_BootImageDir/Windows/System32
+cat startnet.cmd

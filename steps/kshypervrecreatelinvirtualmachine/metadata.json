@@ -37,27 +37,27 @@
             "stepKey": "kshcreatekickstartfolder"
         }, 
         {
-            "order": 160, 
-            "stepKey": "kshcopyitemisotohyperv"
-        }, 
-        {
-            "order": 180, 
-            "stepKey": "kshchecksha256sum"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "kshloadiso"
-        }, 
-        {
-            "order": 220, 
-            "stepKey": "kshboottoiso"
+            "order": 190, 
+            "stepKey": "kshhypervpulliso"
         }, 
         {
             "order": 240, 
+            "stepKey": "kshchecksha256sum"
+        }, 
+        {
+            "order": 290, 
+            "stepKey": "kshloadiso"
+        }, 
+        {
+            "order": 340, 
+            "stepKey": "kshboottoiso"
+        }, 
+        {
+            "order": 390, 
             "stepKey": "kssshwait"
         }, 
         {
-            "order": 260, 
+            "order": 440, 
             "stepKey": "kshunloadisofromvm"
         }
     ], 
