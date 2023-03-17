@@ -1,104 +1,145 @@
 
+
+
+
+[![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
+[![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
+[![Docs](https://img.shields.io/badge/videos-watch-brightgreen.svg)](https://www.youtube.com/@servertribe)
+[![Generic badge](https://img.shields.io/badge/download-latest-brightgreen.svg)](https://www.servertribe.com/community-edition/)
+
 # Hyper-V Kickstarts
 
 
 
 
-## Project Blueprints
 
 
-### Enable WSMan on Attune
+# Attune
 
+[Attune](https://www.servertribe.com/)
+automates and orchestrates processes to streamline deployments, scaling,
+migrations, and management of your systems. The Attune platform is building a
+community of sharable automated and orchestrated processes.
 
-### Hyper-V Blueprints
+You can leverage the publicly available orchestrated blueprints to increase
+your productivity, and accelerate the delivery of your projects. You can
+open-source your own work and improve existing community orchestrated projects.
 
+## Get Started with Attune, Download NOW!
 
-### Kickstart CentOS8.4+HyperV
-
-
-### WinPE Kickstart Win10+HyperV
-
-
-### WinPE Kickstart Win2019+HyperV
-
-
-### WIN Reboot
-
-
-
-
-
-## Project Parameters
-
-
-| Name | Type | Script Reference |
-| ---- | ---- | ---------------- |
-| Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` |
-| DMS Subnet | Network IPv4 Subnet | `dmssubnet` |
-| HyperV Host | Windows Node | `hypervhost` |
-| HyperV Host User | Windows Credential | `hypervhostuser` |
-| Iso Folder | Text | `isofolder` |
-| Kickstart Organisation Name | Text | `kickstartorganisationname` |
-| KS Linux: Disk First Letter | Text | `kslinuxdiskfirstletter` |
-| KS: VM CPU Count | Text | `ksvmcpucount` |
-| KS: VM Ram Size GB | Text | `ksvmramsizegb` |
-| KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |
-| KS: Windows Interface Alias | Text | `kswindowsinterfacealias` |
-| Large Test File Name | Text | `largetestfilename` |
-| Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` |
-| Linux: Root User | Linux/Unix Credential | `linuxrootuser` |
-| oVirt: TimeZone | Text | `ovirttimezone` |
-| RPM Server | Linux/Unix Node | `rpmserver` |
-| Samba Windows Directory | Text | `sambawindowsdirectory` |
-| Small Test File Name | Text | `smalltestfilename` |
-| Target Server | Basic Node | `targetserver` |
-| Target Server: Lin | Linux/Unix Node | `targetserverlin` |
-| Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |
-| Target Server: Win | Windows Node | `targetserverwin` |
-| Target Subnet | Network IPv4 Subnet | `targetsubnet` |
-| test parameter | Text | `testparameter` |
-| Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |
-| Windows: Administrator | Windows Credential | `windowsadministrator` |
-| WinPE Samba Server | Linux/Unix Node | `winpesambaserver` |
+The **Attune Community Edition** can be
+[downloaded](https://www.servertribe.com/comunity-edition/)
+for free from our
+[ServerTribe website](https://www.servertribe.com/comunity-edition/).
+You can learn more about Attune through
+[ServerTribe's YouTube Channel](https://www.youtube.com/@servertribe).
 
 
 
 
-## Project Files
-
-
-| Name | Type |
-| ---- | ---- |
-| CentOS8 Boot ISO v8.4.2105 | Large Archives |
-| CentOS8 Kickstart Config | Version Controlled Files |
-| WinPE ISO for Windows 10 Hyper-V | Large Archives |
-| WinPE ISO for Windows 2019 Hyper-V | Large Archives |
-| WinPE startnet.cmd | Version Controlled Files |
-| WIN Win10 Unattended Config HyperV 7 - Working | Version Controlled Files |
-| WIN Win2019 Unattended Config HyperV | Version Controlled Files |
 
 
 
+# Clone this Project
 
-# ServerTribe
+Clone this project into your own instance of Attune.
 
-*ServerTribe’s mission* is to provide the community access to intuitive and
-flexible open-source IT automated and orchestrated SysOps processes.
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project"/>
 
-This is an *Attune Project* that contains IT automated and orchestrated
-processes.
+---
 
-Attune is your flexible IT Automation & Orchestration solution, a
-self-documenting central source of reusable proven processes, files and
-backups to build and maintain your IT/OT infrastructure. Attune can be
-configured to perform any process or task that a System Administrator or
-Database Administrator would perform through a terminal.
+Paste the GIT repository URL into Attune and Select Clone.
 
-The *Attune Community Edition* can be
-[downloaded for free](https://www.servertribe.com/comunity-edition/)
-from our [ServerTribe website](https://www.servertribe.com/). You can learn
-more about Attune through [ServerTribe's YouTube Channel](https://www.youtube
-.com/channel/UCLRvZajNQXfQPJnYFdeXZ3w).
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project"/>
+
+---
+
+**Now that this project is in your Attune instance you can begin creating
+Jobs.**
+
+Navigate to the Plan workspace and create a Job from a Blueprint in the
+Project you cloned.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-11.png" alt="plan a new job"/>
+
+---
+
+Configure the Parameters for the Job you created. Create the Values you're
+missing in the next step.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-12.png" alt="plan a new job"/>
+
+---
+
+Create the Values required to fill the Parameters for the Job.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-13-1.png" alt="plan a new job"/>
+
+---
+
+Run your Job.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job"/>
+
+---
+
+**Congratulations, you’ve run a cloned project.**
+
+If you need further assistance, please explore our help.
+
+<img width=200 src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help"/>
 
 
-Thank you.
+
+
+## Blueprints
+
+This Project contains the following Blueprints.
+
+
+
+
+
+
+## Parameters
+
+
+| Name | Type | Script Reference | Comment |
+| ---- | ---- | ---------------- | ------- |
+
+
+
+
+## Files
+
+
+| Name | Type | Comment |
+| ---- | ---- | ------- |
+
+
+
+
+
+
+# Contribute to this Project
+
+**The collective power of a community of talented individuals working in
+concert delivers not only more ideas, but quicker development and
+troubleshooting when issues arise.**
+
+If you’d like to contribute and help improve these projects, please fork our
+repository, commit your changes in Attune, push you changes, and create a
+pull request.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-pull-request-01.png" alt="pull request"/>
+
+---
+
+Please feel free to raise any issues or questions you have.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-02.png" alt="create an issue"/>
+
+
+---
+
+**Thank you**
