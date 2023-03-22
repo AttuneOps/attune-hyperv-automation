@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "kshremovevmdvddriveforgeneration2", 
+    "name": "KSH Remove-VMDvdDrive for Generation 2", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "successExitCode": 0, 
+    "timeout": 60, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

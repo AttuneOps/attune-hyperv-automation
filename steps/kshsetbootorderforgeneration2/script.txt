@@ -1,0 +1,16 @@
+$VM = '{targetServer.name}'
+
+Write-Host "Old boot order for $VM is:"
+Get-VMFirmware -VMName $VM
+
+$DVD_DRIVE = Get-VMDVDDrive -VMName $VM
+$HARD_DISK_DRIVE = Get-VMHardDiskDrive -VMName $VM
+
+Write-Host "Setting boot order."
+Set-VMFirmware -VMName $VM `
+    -BootOrder $HARD_DISK_DRIVE, $DVD_DRIVE `
+    -EnableSecureBoot On `
+    -SecureBootTemplate "MicrosoftUEFICertificateAuthority"
+    
+Write-Host "Current boot order for $VM is:"
+Get-VMFirmware -VMName $VM

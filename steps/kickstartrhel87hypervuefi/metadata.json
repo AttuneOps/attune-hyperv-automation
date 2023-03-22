@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "kickstartrhel87hypervuefi", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kscleanbuildfiles"
+        }
+    ], 
+    "name": "Kickstart RHEL8.7+HyperV+UEFI", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

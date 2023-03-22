@@ -28,7 +28,7 @@ $disk_size = 50GB
 # ---------------------------------------------------------
 
 echo "Creating new VM $VM"
-New-VM -Name $VM
+New-VM -Name $VM -Generation 2
 
 # Set the CPU and start-up RAM
 echo "Setting VM with $cpu CPUs and $ram_bytes bytes RAM"

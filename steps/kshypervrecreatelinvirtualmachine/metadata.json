@@ -25,36 +25,48 @@
             "stepKey": "kshsetbootorder"
         }, 
         {
-            "order": 120, 
+            "order": 250, 
             "stepKey": "ksdeleteisoonhypervhost"
         }, 
         {
-            "order": 140, 
+            "order": 300, 
             "stepKey": "kshcreatekickstartfolder"
         }, 
         {
-            "order": 190, 
+            "order": 350, 
             "stepKey": "kshhypervpulliso"
         }, 
         {
-            "order": 240, 
+            "order": 400, 
             "stepKey": "kshchecksha256sum"
         }, 
         {
-            "order": 290, 
+            "order": 450, 
             "stepKey": "kshloadiso"
         }, 
         {
-            "order": 340, 
+            "order": 500, 
+            "stepKey": "ksaddvmdvddriveforgeneration2"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "kshsetbootorderforgeneration2"
+        }, 
+        {
+            "order": 600, 
             "stepKey": "kshboottoiso"
         }, 
         {
-            "order": 390, 
+            "order": 650, 
             "stepKey": "kssshwait"
         }, 
         {
-            "order": 440, 
+            "order": 700, 
             "stepKey": "kshunloadisofromvm"
+        }, 
+        {
+            "order": 750, 
+            "stepKey": "kshremovevmdvddriveforgeneration2"
         }
     ], 
     "name": "KS Hyper-V Recreate Lin Virtual Machine", 

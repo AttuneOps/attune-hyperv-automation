@@ -1,0 +1,10 @@
+{
+    "fileName": "rhel-8.7-x86_64-boot.tar.gz", 
+    "formatKey": "tar.gz", 
+    "key": "rhel87bootiso", 
+    "md5": "4241d32f3caae97361109fb5619f3a0c", 
+    "name": "RHEL8.7 Boot ISO", 
+    "remoteUri": null, 
+    "size": 984267708, 
+    "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
+}

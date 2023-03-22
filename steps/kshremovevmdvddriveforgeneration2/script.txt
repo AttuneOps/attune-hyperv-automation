@@ -1,0 +1,7 @@
+$VM = '{targetServer.name}'
+Write-Host "$VM"
+
+Remove-VMDvdDrive -VMName $VM `
+    -ControllerNumber 0 -ControllerLocation 1
+
+Get-VMDVDDrive -VMName $VM

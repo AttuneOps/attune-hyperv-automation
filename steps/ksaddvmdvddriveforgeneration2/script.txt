@@ -1,0 +1,9 @@
+$VM = '{targetServer.name}'
+Write-Host "VM = $VM"
+
+#$ISO_PATH = '{isoFolder}\kickstart_{targetServer.fqn}\kickstart_{targetServer.fqn}.iso'
+$ISO_PATH = 'C:\Users\Administrator\kickstart_{targetServer.fqn}.iso'
+
+Add-VMDVDDrive -VMName $VM -Path $ISO_PATH
+
+Get-VMDVDDrive -VMName $VM
