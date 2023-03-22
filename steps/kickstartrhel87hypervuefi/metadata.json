@@ -31,6 +31,10 @@
         {
             "order": 300, 
             "stepKey": "ksrhurhel87createuefibinarydvd"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "ksrhuhypervuefirecreatelinvirtualmachine"
         }
     ], 
     "name": "Kickstart RHEL8.7+HyperV+UEFI", 
