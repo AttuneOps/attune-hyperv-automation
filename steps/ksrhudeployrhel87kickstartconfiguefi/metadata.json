@@ -1,0 +1,45 @@
+{
+    "archiveKey": "rhel87kickstartconfiguefi", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "ksrhudeployrhel87kickstartconfiguefi", 
+    "makoFileNames": [
+        "ks.cfg"
+    ], 
+    "makoParameters": [
+        {
+            "name": "ksLinuxDiskFirstLetter", 
+            "parameterKey": "kslinuxdiskfirstletter", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "linuxRootUser", 
+            "parameterKey": "linuxrootuser", 
+            "parameterType": "c.s.s.b.phv.LinOsCred"
+        }, 
+        {
+            "name": "dmsSubnet", 
+            "parameterKey": "targetsubnet", 
+            "parameterType": "c.s.s.b.phv.Ip4Subnet"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserverlin", 
+            "parameterType": "c.s.s.b.phv.LinuxServer"
+        }, 
+        {
+            "name": "targetTimeZone", 
+            "parameterKey": "targetserverlinuxtimezone", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "rhel8BaseosRepoUrl", 
+            "parameterKey": "rhel8baseosrepourl", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "KSRHU Deploy RHEL8.7 Kickstart Config UEFI", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

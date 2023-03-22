@@ -162,6 +162,7 @@ For example, the server being built if the procedure is building a server. |
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
+| RHEL: 8 baseos Repo URL | Text | `rhel8baseosrepourl` | None |
 
 
 
@@ -181,6 +182,8 @@ For example, the server being built if the procedure is building a server. |
 Changed LogonCount from 1 to 88. |
 | WIN Win2019 Unattended Config HyperV | Version Controlled Files | This is the same as file archive "WIN Win2019 Unattended Config with Drivers". |
 | RHEL8.7 Boot ISO | Large Archives | None |
+| RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |
+| RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
 
 
 

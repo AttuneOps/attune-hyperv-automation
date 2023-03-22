@@ -7,6 +7,30 @@
         {
             "order": 0, 
             "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "ksrhudeployrhel87bootiso"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ksrhudeployrhel87kickstartconfiguefi"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ksrhurhel87mountgrubcfginsideefibootimg"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ksrhurhel87deploygrubcfginsideefibootimg"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ksrhvuunmountmnt"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "ksrhurhel87createuefibinarydvd"
         }
     ], 
     "name": "Kickstart RHEL8.7+HyperV+UEFI", 

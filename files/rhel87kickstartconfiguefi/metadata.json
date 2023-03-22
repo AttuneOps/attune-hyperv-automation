@@ -1,0 +1,5 @@
+{
+    "key": "rhel87kickstartconfiguefi", 
+    "name": "RHEL8.7 Kickstart Config UEFI", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

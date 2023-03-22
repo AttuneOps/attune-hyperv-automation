@@ -1,0 +1,11 @@
+{
+    "archiveKey": "rhel87bootiso", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
+    "enabled": true, 
+    "key": "ksrhudeployrhel87bootiso", 
+    "name": "KSRHU Deploy RHEL8.7 Boot ISO", 
+    "osCredKey": "linuxattuneuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}

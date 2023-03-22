@@ -1,0 +1,6 @@
+{
+    "key": "rhel8baseosrepourl", 
+    "name": "RHEL: 8 baseos Repo URL", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

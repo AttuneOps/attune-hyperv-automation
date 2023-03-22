@@ -1,0 +1,5 @@
+{
+    "key": "rhel87grubcfginsideefibootimg", 
+    "name": "RHEL8.7 grub.cfg Inside efiboot.img", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

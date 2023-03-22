@@ -1,0 +1,5 @@
+cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+
+mount -o loop ./images/efiboot.img /mnt
+ls -lh /mnt/EFI/BOOT/grub.cfg
+cat /mnt/EFI/BOOT/grub.cfg

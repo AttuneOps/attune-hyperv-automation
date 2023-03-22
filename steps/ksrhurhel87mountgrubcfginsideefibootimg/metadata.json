@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "ksrhurhel87mountgrubcfginsideefibootimg", 
+    "name": "KSRHU RHEL8.7 Mount grub.cfg inside efiboot.img", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attuneosbuildserver", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

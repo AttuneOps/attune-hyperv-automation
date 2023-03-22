@@ -1,0 +1,11 @@
+{
+    "archiveKey": "rhel87grubcfginsideefibootimg", 
+    "deployPath": "/mnt/EFI/BOOT/", 
+    "enabled": true, 
+    "key": "ksrhurhel87deploygrubcfginsideefibootimg", 
+    "name": "KSRHU RHEL8.7 Deploy grub.cfg inside efiboot.img", 
+    "osCredKey": "linuxrootuser", 
+    "serverKey": "attuneosbuildserver", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": true
+}
