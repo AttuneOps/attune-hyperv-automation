@@ -7,19 +7,17 @@ $found=$false
 
 Get-VM | ForEach-Object {
    if ($_.Name -eq $VM) {
-       Write-Host "VM $VM found"
-       $found=$true
+        Write-Host "VM $VM found"
+        $found=$true
        
-       #Remove-VMHardDiskDrive -VMName $_.Name -ControllerType IDE -ControllerNumber 0 -ControllerLocation 0
-       Remove-VMDvdDrive -VMName $VM -ControllerNumber 0 -ControllerLocation 1
-       Remove-VM -Name $_.Name -Force
+        Remove-VM -Name $_.Name -Force
        
-       if ($? -eq $true) {
+        if ($? -eq $true) {
            Write-Host "Removed VM $VM sucessfully"
-       } else {
+        } else {
            Write-Host "Failed to remove VM $VM"       
-       }
-       return
+        }
+        return
    }
    $i++
 }

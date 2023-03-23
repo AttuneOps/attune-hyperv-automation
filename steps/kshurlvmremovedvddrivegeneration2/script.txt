@@ -1,0 +1,36 @@
+$VM='{targetServer.name}'
+
+Write-Host "Deleting VM : $VM"
+
+$i=0
+$found=$false
+
+Get-VM | ForEach-Object {
+   if ($_.Name -eq $VM) {
+       Write-Host "VM $VM found"
+       $found=$true
+       
+       if (Get-VMDVDDrive -VMName $VM) {
+            Write-Host "Found DVD drive."
+            Remove-VMDvdDrive -VMName $VM -ControllerNumber 0 -ControllerLocation 1
+           
+            if ($? -eq $true) {
+                Write-Host "Removed DVD drive from VM $VM sucessfully"
+            } else {
+                Write-Host "Failed to remove DVD drive from VM $VM"       
+            }
+       
+       } else {
+           Write-Host "No DVD drive found, skipping."
+       }
+       
+       
+
+       return
+   }
+   $i++
+}
+
+if ($found -eq $false) {
+    Write-Host "No VM, continuing."
+}

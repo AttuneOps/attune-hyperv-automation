@@ -9,6 +9,10 @@
             "stepKey": "kshstopvm"
         }, 
         {
+            "order": 50, 
+            "stepKey": "kshurlvmremovedvddrivegeneration2"
+        }, 
+        {
             "order": 100, 
             "stepKey": "kshurlvmdeletegeneration2vm"
         }, 
