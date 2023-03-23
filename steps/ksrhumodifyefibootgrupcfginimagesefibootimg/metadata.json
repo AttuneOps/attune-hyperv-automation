@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "ksrhumodifyefibootgrupcfginimagesefibootimg", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "ksrhucreatetemporarydirectoryforefibootimgmount"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "ksrhurhel87mountgrubcfginsideefibootimg"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ksrhurhel87deploygrubcfginsideefibootimg"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ksrhvuunmounttemporarydirectoryforefibootimgmount"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ksrhudeletetemporarydirectoryforefibootimg"
+        }
+    ], 
+    "name": "KSRHU Modify EFI/BOOT/grup.cfg in images/efiboot.img", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

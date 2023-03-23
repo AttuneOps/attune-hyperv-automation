@@ -9,10 +9,6 @@
             "stepKey": "kshstopvm"
         }, 
         {
-            "order": 50, 
-            "stepKey": "kshurlvmremovedvddrivegeneration2"
-        }, 
-        {
             "order": 100, 
             "stepKey": "kshurlvmdeletegeneration2vm"
         }, 
@@ -23,10 +19,6 @@
         {
             "order": 200, 
             "stepKey": "kshcreatevm"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "ksdeleteisoonhypervhost"
         }, 
         {
             "order": 350, 
@@ -51,6 +43,10 @@
         {
             "order": 600, 
             "stepKey": "kshboottoiso"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "kssshwait"
         }
     ], 
     "name": "KSRHU Hyper-V UEFI Recreate Lin Virtual Machine", 

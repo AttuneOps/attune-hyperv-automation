@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "kshypervcleanbuildfiles", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kshcleanbuildfilesasroot"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "kshcleanbuildfilesasnormaluser"
+        }
+    ], 
+    "name": "KS Hyper-V Clean Build Files", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

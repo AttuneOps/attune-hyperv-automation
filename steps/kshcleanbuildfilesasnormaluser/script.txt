@@ -1,0 +1,2 @@
+ISO="{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso"
+[[ -f ${ISO} ]] && rm -fv ${ISO} || echo "No ISO to remove."

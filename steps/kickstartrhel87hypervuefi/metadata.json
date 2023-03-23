@@ -5,40 +5,40 @@
     "key": "kickstartrhel87hypervuefi", 
     "links": [
         {
-            "order": 0, 
-            "stepKey": "kscleanbuildfiles"
-        }, 
-        {
             "order": 50, 
-            "stepKey": "ksrhudeployrhel87bootiso"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "ksrhudeployrhel87kickstartconfiguefi"
+            "stepKey": "kshypervcleanbuildfiles"
         }, 
         {
             "order": 150, 
-            "stepKey": "ksrhurhel87mountgrubcfginsideefibootimg"
+            "stepKey": "ksrhudeployrhel87bootiso"
         }, 
         {
             "order": 200, 
-            "stepKey": "ksrhurhel87deploygrubcfginsideefibootimg"
+            "stepKey": "ksrhudeployrhel87kickstartconfiguefi"
         }, 
         {
             "order": 250, 
-            "stepKey": "ksrhvuunmountmnt"
+            "stepKey": "ksrhumodifyefibootgrupcfginimagesefibootimg"
         }, 
         {
-            "order": 300, 
+            "order": 450, 
             "stepKey": "ksrhurhel87createuefibinarydvd"
         }, 
         {
-            "order": 350, 
+            "order": 500, 
+            "stepKey": "kshypervcleanup"
+        }, 
+        {
+            "order": 550, 
             "stepKey": "ksrhuhypervuefirecreatelinvirtualmachine"
         }, 
         {
-            "order": 400, 
-            "stepKey": "kssshwait"
+            "order": 600, 
+            "stepKey": "kshypervcleanup"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "kshypervcleanbuildfiles"
         }
     ], 
     "name": "Kickstart RHEL8.7+HyperV+UEFI", 

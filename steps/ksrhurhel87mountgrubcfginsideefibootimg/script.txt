@@ -1,5 +1,8 @@
 cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
 
-mount -o loop ./images/efiboot.img /mnt
-ls -lh /mnt/EFI/BOOT/grub.cfg
-cat /mnt/EFI/BOOT/grub.cfg
+mount --options loop,gid={linuxAttuneUser.user},uid={linuxAttuneUser.user} ./images/efiboot.img ./temporary_mount
+
+ls -lh ./temporary_mount/EFI/BOOT/grub.cfg
+
+echo "Here are the contents of {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/temporary_mount/EFI/BOOT/grub.cfg"
+cat ./temporary_mount/EFI/BOOT/grub.cfg

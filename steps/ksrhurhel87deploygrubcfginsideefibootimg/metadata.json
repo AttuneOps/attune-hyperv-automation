@@ -1,10 +1,10 @@
 {
     "archiveKey": "rhel87grubcfginsideefibootimg", 
-    "deployPath": "/mnt/EFI/BOOT/", 
+    "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/temporary_mount/EFI/BOOT", 
     "enabled": true, 
     "key": "ksrhurhel87deploygrubcfginsideefibootimg", 
     "name": "KSRHU RHEL8.7 Deploy grub.cfg inside efiboot.img", 
-    "osCredKey": "linuxrootuser", 
+    "osCredKey": "linuxattuneuser", 
     "serverKey": "attuneosbuildserver", 
     "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
     "unpack": true
