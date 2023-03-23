@@ -43,6 +43,14 @@
         {
             "order": 500, 
             "stepKey": "ksaddvmdvddriveforgeneration2"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "kshsetbootorderforgeneration2"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "kshboottoiso"
         }
     ], 
     "name": "KSRHU Hyper-V UEFI Recreate Lin Virtual Machine", 

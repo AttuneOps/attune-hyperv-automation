@@ -1,0 +1,1 @@
+Sets boot order and UEFI Secure Boot.
