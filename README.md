@@ -107,6 +107,9 @@ This Project contains the following Blueprints.
 ### Kickstart CentOS8.4+HyperV
 
 
+### Kickstart RHEL8.7+HyperV+UEFI
+
+
 ### WinPE Kickstart Win10+HyperV
 
 
@@ -114,9 +117,6 @@ This Project contains the following Blueprints.
 
 
 ### WIN Reboot
-
-
-### Kickstart RHEL8.7+HyperV+UEFI
 
 
 
@@ -149,6 +149,7 @@ This is the "InternetAlias" of the interface shown when you run "get-netipaddres
 | Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` | None |
 | Linux: Root User | Linux/Unix Credential | `linuxrootuser` | None |
 | oVirt: TimeZone | Text | `ovirttimezone` | None |
+| RHEL: 8 baseos Repo URL | Text | `rhel8baseosrepourl` | None |
 | RPM Server | Linux/Unix Node | `rpmserver` | None |
 | Samba Windows Directory | Text | `sambawindowsdirectory` | The extracted Windows Directory on the Samba server that we want to run setup.exe from. |
 | Small Test File Name | Text | `smalltestfilename` | File name of small test file to be created on Attune in /tmp and used for testing Copy-Item. |
@@ -162,7 +163,6 @@ For example, the server being built if the procedure is building a server. |
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
-| RHEL: 8 baseos Repo URL | Text | `rhel8baseosrepourl` | None |
 
 
 
@@ -174,6 +174,9 @@ For example, the server being built if the procedure is building a server. |
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
+| RHEL8.7 Boot ISO | Large Archives | None |
+| RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
+| RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |
 | WinPE ISO for Windows 10 Hyper-V | Large Archives | This is currently the same as "WinPE ISO for Windows 10 oVirt". |
 | WinPE ISO for Windows 2019 Hyper-V | Large Archives | Taken from nzte1att2 file archive "WinPE 2019 ISO". |
 | WinPE startnet.cmd | Version Controlled Files | None |
@@ -181,9 +184,6 @@ For example, the server being built if the procedure is building a server. |
 
 Changed LogonCount from 1 to 88. |
 | WIN Win2019 Unattended Config HyperV | Version Controlled Files | This is the same as file archive "WIN Win2019 Unattended Config with Drivers". |
-| RHEL8.7 Boot ISO | Large Archives | None |
-| RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |
-| RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
 
 
 

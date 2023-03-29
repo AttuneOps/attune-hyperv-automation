@@ -20,9 +20,9 @@ $ram_bytes = {ksVmRamSizeGb} * 1024 * 1024 * 1024
 # "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks{targetServer.name}-disk1.vhdx"
 $path_to_disk = "{virtualHardDiskFolder}\$VM-disk1.vhdx"
 
-# All Synerty kickstarts are 50gb as a standard
+# Set 100GB
 # VM storage, not a string, PowerShell converts this to bytes once stored into $disk_size.
-$disk_size = 50GB
+$disk_size = 100GB
 
 # Part 2: The next part are the PowerShell commands
 # ---------------------------------------------------------
