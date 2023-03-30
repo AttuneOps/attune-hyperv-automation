@@ -9,7 +9,7 @@ $VM = '{targetServer.name}'
 $disk_name = "$VM-disk1.vhdx"
 
 if (Test-Path -Path $disk_name -PathType Leaf) {
-    rm "$disk_name"
+    Remove-Item "$disk_name"
     echo "Deleted disk {virtualHardDiskFolder}\$disk_name"
 } else {
     echo "No disk to delete, continuing."
