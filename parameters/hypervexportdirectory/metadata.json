@@ -1,0 +1,6 @@
+{
+    "key": "hypervexportdirectory", 
+    "name": "HyperV Export Directory", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

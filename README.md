@@ -119,6 +119,9 @@ This Project contains the following Blueprints.
 ### WIN Reboot
 
 
+### Export Virtual Machine
+
+
 
 
 
@@ -163,6 +166,7 @@ For example, the server being built if the procedure is building a server. |
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
+| HyperV Export Directory | Text | `hypervexportdirectory` | None |
 
 
 
