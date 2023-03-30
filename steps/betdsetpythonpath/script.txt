@@ -1,0 +1,8 @@
+if($env:path -like '*python*') {
+    Write-Host 'Python found in PATH, skipping.'
+} else {
+    Write-Host 'Python not found in PATH'
+
+    $PATH_TO_APPEND="C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32"
+    setx path "$env:path;$PATH_TO_APPEND"
+}

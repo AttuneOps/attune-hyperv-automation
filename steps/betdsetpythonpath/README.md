@@ -1,0 +1,1 @@
+https://poshcode.gitbook.io/powershell-faq/src/getting-started/environment-variables

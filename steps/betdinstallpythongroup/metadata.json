@@ -1,0 +1,34 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "betdinstallpythongroup", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "betddownloadpythoninstaller"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "betdinstallpython"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "betdsetpythonpath"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "betdcheckifpythonpathisset"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "betdsetpippath"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "betdcheckifpippathisset"
+        }
+    ], 
+    "name": "BETD Install Python Group", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

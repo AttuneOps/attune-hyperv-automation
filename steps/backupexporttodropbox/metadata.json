@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "backupexporttodropbox", 
+    "links": [
+        {
+            "order": 200, 
+            "stepKey": "betdinstallpythongroup"
+        }
+    ], 
+    "name": "Backup Export to Dropbox", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

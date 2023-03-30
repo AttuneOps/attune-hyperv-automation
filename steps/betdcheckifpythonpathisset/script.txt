@@ -1,0 +1,9 @@
+Write-Host "PATH=$env:path"
+
+if($env:path -like '*python*') {
+    Write-Host 'Python found in PATH'
+} else {
+    Write-Host 'Python not found in PATH'
+    exit 1
+}
+

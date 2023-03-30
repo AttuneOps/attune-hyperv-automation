@@ -1,0 +1,8 @@
+if($env:path -like '*python*\Scripts') {
+    Write-Host 'Pip path found in PATH, skipping.'
+} else {
+    Write-Host 'Pip path not found in PATH'
+
+    $PATH_TO_APPEND="C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32\Scripts"
+    setx path "$env:path;$PATH_TO_APPEND"
+}

@@ -1,0 +1,17 @@
+
+if($env:path -like '*python*') {
+    Write-Host 'Python found in PATH, skipping.'
+} else {
+    
+    cd C:\Users\{hypervHostUser.user}\Downloads
+    
+    # The PrependPath is to automatically update the PATH
+    # environment variable.
+    
+    # There is a bug where the %Path% is not automatically set.
+    # https://stackoverflow.com/questions/47310884/adding-into-path-var-while-silent-installation-of-python-possible-bug
+    .\python-3.9.9.exe /quiet `
+        InstallAllUsers=0 `
+        PrependPath=1 `
+        Include_test=0
+}

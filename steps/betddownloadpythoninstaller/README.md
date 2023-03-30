@@ -1,0 +1,1 @@
+https://laptrinhx.com/powershell-invoke-webrequest-the-request-was-aborted-could-not-create-ssl-tls-secure-channel-1923765209/

@@ -1,0 +1,8 @@
+Write-Host "PATH=$env:path"
+
+if($env:path -like '*python*\Scripts') {
+    Write-Host 'Pip path found in PATH'
+} else {
+    Write-Host 'Pip path not found in PATH'
+    exit 1
+}
