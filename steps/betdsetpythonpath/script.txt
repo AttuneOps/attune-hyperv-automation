@@ -3,6 +3,6 @@ if($env:path -like '*python*') {
 } else {
     Write-Host 'Python not found in PATH'
 
-    $PATH_TO_APPEND="C:\Users\Administrator\AppData\Local\Programs\Python\Python39-32"
+    $PATH_TO_APPEND="C:\Users\{hypervHostUser.user}\AppData\Local\Programs\Python\Python39-32"
     setx path "$env:path;$PATH_TO_APPEND"
 }

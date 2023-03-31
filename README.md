@@ -98,10 +98,19 @@ This Project contains the following Blueprints.
 
 
 
+### Backup Export to Dropbox
+
+
 ### Enable WSMan on Attune
 
 
+### Export Virtual Machine
+
+
 ### Hyper-V Blueprints
+
+
+### Hyper-V Enable Push Files to Port 445
 
 
 ### Kickstart CentOS8.4+HyperV
@@ -119,12 +128,6 @@ This Project contains the following Blueprints.
 ### WIN Reboot
 
 
-### Export Virtual Machine
-
-
-### Backup Export to Dropbox
-
-
 
 
 
@@ -135,6 +138,8 @@ This Project contains the following Blueprints.
 | ---- | ---- | ---------------- | ------- |
 | Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` | This variable is used in the "Kickstart" build procedures, so the "Attune Server" can be used to build Attune servers. |
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` | The subnet that the various DevOps servers are in. |
+| Dropbox Access Token | Basic Credential | `dropboxaccesstoken` | None |
+| HyperV Export Directory | Text | `hypervexportdirectory` | None |
 | HyperV Host | Windows Node | `hypervhost` | None |
 | HyperV Host User | Windows Credential | `hypervhostuser` | None |
 | Iso Folder | Text | `isofolder` | None |
@@ -169,7 +174,9 @@ For example, the server being built if the procedure is building a server. |
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
-| HyperV Export Directory | Text | `hypervexportdirectory` | None |
+| Dropbox App Key | Basic Credential | `dropboxappkey` | None |
+| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` | None |
+| Dropbox App Secret | Basic Credential | `dropboxappsecret` | None |
 
 
 
@@ -181,6 +188,7 @@ For example, the server being built if the procedure is building a server. |
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
+| Python Dropbox Uploader | Version Controlled Files | None |
 | RHEL8.7 Boot ISO | Large Archives | None |
 | RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
 | RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |

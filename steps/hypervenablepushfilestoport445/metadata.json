@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "hypervenablepushfilestoport445", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "hepfenablefileandprintersharing"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "hepfopenfirewallport445"
+        }
+    ], 
+    "name": "Hyper-V Enable Push Files to Port 445", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

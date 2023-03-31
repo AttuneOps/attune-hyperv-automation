@@ -1,0 +1,6 @@
+{
+    "key": "dropboxaccesstoken", 
+    "name": "Dropbox Access Token", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

@@ -1,0 +1,6 @@
+if (pip list | Select-String -Pattern "dropbox") {
+    Write-Host "Python dropbox moudle is already installed."
+} else {
+    Write-Host "Installing Python dropbox module."
+    pip install dropbox
+}

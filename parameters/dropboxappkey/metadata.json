@@ -1,0 +1,6 @@
+{
+    "key": "dropboxappkey", 
+    "name": "Dropbox App Key", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

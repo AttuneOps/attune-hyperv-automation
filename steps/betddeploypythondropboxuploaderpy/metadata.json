@@ -1,0 +1,35 @@
+{
+    "archiveKey": "pythondropboxuploader", 
+    "deployPath": "/c$/", 
+    "enabled": true, 
+    "key": "betddeploypythondropboxuploaderpy", 
+    "makoFileNames": [
+        "Users/Public/Downloads/PythonDropboxUploader.py"
+    ], 
+    "makoParameters": [
+        {
+            "name": "dropboxAccessToken", 
+            "parameterKey": "dropboxaccesstoken", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxAppKey", 
+            "parameterKey": "dropboxappkey", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxRefreshToken", 
+            "parameterKey": "dropboxrefreshtoken", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxAppSecret", 
+            "parameterKey": "dropboxappsecret", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }
+    ], 
+    "name": "BETD Deploy PythonDropboxUploader.py", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

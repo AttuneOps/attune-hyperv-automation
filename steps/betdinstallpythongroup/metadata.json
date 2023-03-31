@@ -25,7 +25,7 @@
             "stepKey": "betdsetpippath"
         }, 
         {
-            "order": 250, 
+            "order": 300, 
             "stepKey": "betdcheckifpippathisset"
         }
     ], 

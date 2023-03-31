@@ -1,0 +1,6 @@
+{
+    "key": "dropboxrefreshtoken", 
+    "name": "Dropbox Refresh Token", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

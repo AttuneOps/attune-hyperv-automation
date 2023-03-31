@@ -1,0 +1,5 @@
+{
+    "key": "pythondropboxuploader", 
+    "name": "Python Dropbox Uploader", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}
