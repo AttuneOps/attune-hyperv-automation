@@ -4,11 +4,11 @@
     "interpreterCommand": "", 
     "interpreterScriptExt": null, 
     "interpreterScriptSyntax": "", 
-    "key": "betdrunpythondropboxuploaderpy", 
-    "name": "BETD Run PythonDropboxUploader.py", 
+    "key": "betddeletezipexport", 
+    "name": "BETD Delete Zip Export", 
     "osCredKey": "hypervhostuser", 
     "serverKey": "hypervhost", 
     "successExitCode": 0, 
-    "timeout": 432000, 
+    "timeout": 5, 
     "type": "com.servertribe.attune.tuples.StepWinRmTuple"
 }

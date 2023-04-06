@@ -1,0 +1,32 @@
+$VM='{targetServer.name}'
+
+# Directory containing the exports for VM
+# Example: C:\ProgramData\Microsoft\Windows\Exports\site1h1vs3 - 10.2.56.98
+$EXPORTS_FOLDER_PATH = "{hypervExportDirectory}\$VM"
+
+# Name of folder containing our VM export.
+# Example: "sitelh1vs3 - 10.2.56.98"
+$EXPORT_FOLDER_NAME = $VM
+
+if (-Not (Test-Path $EXPORTS_FOLDER_PATH)) {
+  Write-Host "Export folder $EXPORTS_FOLDER_PATH deos not exist."
+  exit 1
+}
+
+Write-Host "Export folder path $EXPORTS_FOLDER_PATH exists, good"
+
+$ARCHIVE_PATH = "{hypervExportDirectory}\$VM.zip"
+Write-Host "ARCHIVE_PATH=$ARCHIVE_PATH"
+
+if (Test-Path $EXPORTS_FOLDER_PATH -PathType Leaf) {
+  Write-Host "$EXPORTS_FOLDER_PATH has not been deleted."
+  exit 1
+}
+
+
+# Compress-Archive -Path $EXPORT_FOLDER_NAME `
+#     -DestinationPath $ARCHIVE
+    
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+
+[IO.Compression.ZipFile]::CreateFromDirectory($EXPORTS_FOLDER_PATH, $ARCHIVE_PATH)

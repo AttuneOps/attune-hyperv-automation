@@ -14,10 +14,18 @@
         }, 
         {
             "order": 300, 
-            "stepKey": "betddeletepythondropboxuploaderpy"
+            "stepKey": "betddeletezipexport"
         }, 
         {
             "order": 350, 
+            "stepKey": "betdzipexport"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "betddeletepythondropboxuploaderpy"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "betddeploypythondropboxuploaderpy"
         }, 
         {

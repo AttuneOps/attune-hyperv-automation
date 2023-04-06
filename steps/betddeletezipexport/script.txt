@@ -1,0 +1,26 @@
+# Directory containing the exports for all VMs
+# Example: C:\ProgramData\Microsoft\Windows\Exports
+$EXPORTS_FOLDER_PATH = "{hypervExportDirectory}"
+
+$VM='{targetServer.name}'
+# Name of folder containing our VM export.
+# Example: "sitelh1vs3 - 10.2.56.98"
+$EXPORT_FOLDER_NAME = $VM
+
+if (-Not (Test-Path $EXPORTS_FOLDER_PATH)) {
+  Write-Host "Export folder $FOLDER deos not exist."
+  exit 1
+}
+
+Write-Host "Export folder $FOLDER exists, good"
+
+cd $EXPORTS_FOLDER_PATH
+
+$ARCHIVE = "$VM.zip"
+
+if (Test-Path $ARCHIVE) {
+    Write-Host "Deleting zip $EXPORTS_FOLDER_PATH\$ARCHIVE."
+    Remove-Item $ARCHIVE
+} else {
+    Write-Host "zip $EXPORTS_FOLDER_PATH\$ARCHIVE does not exist, skipping."
+}

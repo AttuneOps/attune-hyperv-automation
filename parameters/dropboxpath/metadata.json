@@ -1,0 +1,6 @@
+{
+    "key": "dropboxpath", 
+    "name": "Dropbox Path", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

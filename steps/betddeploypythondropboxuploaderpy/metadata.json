@@ -26,6 +26,16 @@
             "name": "dropboxAppSecret", 
             "parameterKey": "dropboxappsecret", 
             "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "hypervExportDirectory", 
+            "parameterKey": "hypervexportdirectory", 
+            "parameterType": "c.s.s.b.phv.Text"
         }
     ], 
     "name": "BETD Deploy PythonDropboxUploader.py", 
