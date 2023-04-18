@@ -128,6 +128,12 @@ This Project contains the following Blueprints.
 ### WIN Reboot
 
 
+### Backup Export to Dropbox Small File Test
+
+
+### Backup Peek Export to Dropbox
+
+
 
 
 
@@ -179,6 +185,7 @@ For example, the server being built if the procedure is building a server. |
 | Dropbox App Secret | Basic Credential | `dropboxappsecret` | None |
 | Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.
 Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
+| Export Attune Version | Text | `exportattuneversion` | None |
 
 
 
@@ -190,7 +197,7 @@ Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
-| Python Dropbox Uploader | Version Controlled Files | None |
+| Python Dropbox Uploader | Version Controlled Files | This is for testing uploads using small files. |
 | RHEL8.7 Boot ISO | Large Archives | None |
 | RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
 | RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |

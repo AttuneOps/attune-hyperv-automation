@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "backuppeekexporttodropbox", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "betdinstallpythongroup"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "betdinstallpythondropboxmodule"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "betddeletezipexport"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "betdzipexport"
+        }
+    ], 
+    "name": "Backup Peek Export to Dropbox", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

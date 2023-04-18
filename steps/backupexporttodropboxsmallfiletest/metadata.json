@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "backupexporttodropboxsmallfiletest", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "betdinstallpythongroup"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "betdinstallpythondropboxmodule"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "betdsftdeletepythondropboxuploadersmallfilepy"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "betdsftdeploypythondropboxuploaderpyforsmallfiles"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "betdrunpythondropboxuploadersmallfilepy"
+        }
+    ], 
+    "name": "Backup Export to Dropbox Small File Test", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

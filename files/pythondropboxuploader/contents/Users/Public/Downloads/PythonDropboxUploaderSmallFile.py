@@ -1,3 +1,4 @@
+from datetime import date
 import dropbox
 import re
 
@@ -6,7 +7,10 @@ dropbox_app_key = "${dropboxAppKey.password}"
 dropbox_refresh_token = "${dropboxRefreshToken.password}"
 dropbox_app_secret = "${dropboxAppSecret.password}"
 
-dropbox_path = "/Product Releases/Attune/tmp.txt"
+today = date.today()
+date = today.strftime("%Y%m%d")
+dropbox_path = "/Product Releases/Attune/" + date + "_tmp.txt"
+
 computer_path = "C:/Users/Public/Downloads/tmp.txt"
 
 print("dropbox_path=[%s], computer_path=[%s]" % (dropbox_path, computer_path
@@ -66,9 +70,13 @@ def uploadFile( \
         app_key=dropbox_app_key,
         app_secret=dropbox_app_secret)
     
-    dbx.files_upload(open(computer_path, "rb").read(), dropbox_path)
+    file = open(computer_path, "rb")
+    
+    dbx.files_upload(file.read(), dropbox_path)
     print("[UPLOADED] {} to Dropbox {}".format(computer_path, dropbox_path))
-
+    
+    file.close()
+    
 root_namespace_id = getRootNamespaceId( \
     authorization_bearer,
     dropbox_access_token,
