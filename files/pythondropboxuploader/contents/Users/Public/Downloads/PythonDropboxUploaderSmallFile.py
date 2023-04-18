@@ -1,8 +1,11 @@
 from datetime import date
 import dropbox
 import re
+import sys
 
-dropbox_access_token = "${dropboxAccessToken.password}"
+# The access token is the first command line argument
+dropbox_access_token = sys.argv[1]
+
 dropbox_app_key = "${dropboxAppKey.password}"
 dropbox_refresh_token = "${dropboxRefreshToken.password}"
 dropbox_app_secret = "${dropboxAppSecret.password}"

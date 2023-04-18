@@ -1,0 +1,11 @@
+$CLIENT = New-Object System.Net.WebClient
+
+$ACCESS_TOKEN_FILE = "{dropboxRefreshToken.user}AccessToken.txt"
+
+# The path is relative to c:\Users\Public\Downloads\
+$ACCESS_TOKEN_PATH = "dropboxAccessTokens\{dropboxRefreshToken.user}\$ACCESS_TOKEN_FILE"
+
+$URL = "http://{attuneOsBuildServer.ip}:8050/$ACCESS_TOKEN_PATH"
+$PATH = "c:\Users\Public\Downloads\$ACCESS_TOKEN_FILE"
+
+$CLIENT.DownloadFile($URL, $PATH)

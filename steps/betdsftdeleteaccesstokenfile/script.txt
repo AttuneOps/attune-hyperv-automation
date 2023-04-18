@@ -1,7 +1,7 @@
 $DIRECTORY = "C:\Users\Public\Downloads"
 Set-Location $DIRECTORY
 
-$FILE = "PythonDropboxUploaderSmallFile.py"
+$FILE = "{dropboxRefreshToken.user}AccessToken.txt"
 
 if (Test-Path -Path $FILE -PathType Leaf) {
     Remove-Item "$FILE"

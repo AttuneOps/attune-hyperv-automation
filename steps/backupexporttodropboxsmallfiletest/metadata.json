@@ -22,7 +22,19 @@
         }, 
         {
             "order": 200, 
+            "stepKey": "betdsftpullaccesstokenfile"
+        }, 
+        {
+            "order": 250, 
             "stepKey": "betdrunpythondropboxuploadersmallfilepy"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "betdsftdeletepythondropboxuploadersmallfilepy"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "betdsftdeleteaccesstokenfile"
         }
     ], 
     "name": "Backup Export to Dropbox Small File Test", 

@@ -14,6 +14,6 @@ echo "ACCESS_TOKEN=${ACCESS_TOKEN}"
 
 # Write access_token to file prefixed with the Dropbox 
 # user's name.
-cd "$HOME/dropboxAccessTokens/{dropboxRefreshToken.user}"
+cd "$HOME/kickstart/dropboxAccessTokens/{dropboxRefreshToken.user}"
 
 echo ${ACCESS_TOKEN} > "{dropboxRefreshToken.user}AccessToken.txt"
