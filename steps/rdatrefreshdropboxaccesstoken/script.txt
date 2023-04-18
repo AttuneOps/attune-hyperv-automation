@@ -1,0 +1,19 @@
+CURL_RESULT=$(curl https://api.dropbox.com/oauth2/token \
+    --data grant_type=refresh_token \
+    --data refresh_token={dropboxRefreshToken.password} \
+    --user {dropboxAppKey.password}:{dropboxAppSecret.password} \
+| jq)
+    
+echo "CURL_RESULT=${CURL_RESULT}"
+
+# Get the access_token value
+ACCESS_TOKEN=$(echo "${CURL_RESULT}" \
+    | jq -r ".access_token")
+    
+echo "ACCESS_TOKEN=${ACCESS_TOKEN}"
+
+# Write access_token to file prefixed with the Dropbox 
+# user's name.
+cd "$HOME/dropboxAccessTokens/{dropboxRefreshToken.user}"
+
+echo ${ACCESS_TOKEN} > "{dropboxRefreshToken.user}AccessToken.txt"

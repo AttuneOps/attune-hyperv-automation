@@ -1,0 +1,9 @@
+$DIRECTORY = "C:\Users\Public\Downloads"
+cd $DIRECTORY
+
+$FILE = "PythonDropboxUploader-Peek.py"
+
+if (Test-Path -Path $FILE -PathType Leaf) {
+    Remove-Item "$FILE"
+    echo "Deleted $DIRECTORY\$FILE"
+}

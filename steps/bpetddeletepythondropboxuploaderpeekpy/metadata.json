@@ -1,0 +1,14 @@
+{
+    "enabled": true, 
+    "interpreter": 2, 
+    "interpreterCommand": "", 
+    "interpreterScriptExt": null, 
+    "interpreterScriptSyntax": "", 
+    "key": "bpetddeletepythondropboxuploaderpeekpy", 
+    "name": "BPETD Delete PythonDropboxUploader-Peek.py", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "successExitCode": 0, 
+    "timeout": 5, 
+    "type": "com.servertribe.attune.tuples.StepWinRmTuple"
+}

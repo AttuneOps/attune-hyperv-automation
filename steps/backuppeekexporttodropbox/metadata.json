@@ -19,6 +19,18 @@
         {
             "order": 150, 
             "stepKey": "betdzipexport"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "bpetddeletepythondropboxuploaderpeekpy"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "bpetddeploypythondropboxuploaderpeekpy"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "bpetdrunpythondropboxuploaderpeekpy"
         }
     ], 
     "name": "Backup Peek Export to Dropbox", 

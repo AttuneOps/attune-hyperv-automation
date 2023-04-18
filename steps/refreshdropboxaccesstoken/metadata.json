@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "refreshdropboxaccesstoken", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "rdatcreateaccesstokendirectory"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "rdatrefreshdropboxaccesstoken"
+        }
+    ], 
+    "name": "Refresh Dropbox Access Token", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

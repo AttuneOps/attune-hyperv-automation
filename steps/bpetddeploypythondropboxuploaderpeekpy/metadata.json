@@ -1,0 +1,50 @@
+{
+    "archiveKey": "pythondropboxsessionuploaderpeek", 
+    "deployPath": "/c$/", 
+    "enabled": true, 
+    "key": "bpetddeploypythondropboxuploaderpeekpy", 
+    "makoFileNames": [
+        "Users/Public/Downloads/PythonDropboxUploader-Peek.py"
+    ], 
+    "makoParameters": [
+        {
+            "name": "dropboxAccessToken", 
+            "parameterKey": "dropboxaccesstoken", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxAppKey", 
+            "parameterKey": "dropboxappkey", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxRefreshToken", 
+            "parameterKey": "dropboxrefreshtoken", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "dropboxAppSecret", 
+            "parameterKey": "dropboxappsecret", 
+            "parameterType": "c.s.s.b.phv.OsCred"
+        }, 
+        {
+            "name": "targetServer", 
+            "parameterKey": "targetserver", 
+            "parameterType": "c.s.s.b.phv.Server"
+        }, 
+        {
+            "name": "hypervExportDirectory", 
+            "parameterKey": "hypervexportdirectory", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }, 
+        {
+            "name": "exportPeekVersion", 
+            "parameterKey": "exportpeekversion", 
+            "parameterType": "c.s.s.b.phv.Text"
+        }
+    ], 
+    "name": "BPETD Deploy PythonDropboxUploader-Peek.py", 
+    "osCredKey": "hypervhostuser", 
+    "serverKey": "hypervhost", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileCompiledTuple"
+}

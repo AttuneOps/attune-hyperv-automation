@@ -1,0 +1,5 @@
+{
+    "key": "pythondropboxsessionuploaderpeek", 
+    "name": "Python Dropbox Session Uploader - Peek", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}
