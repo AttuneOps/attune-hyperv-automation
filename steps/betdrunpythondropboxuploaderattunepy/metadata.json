@@ -4,11 +4,11 @@
     "interpreterCommand": "", 
     "interpreterScriptExt": null, 
     "interpreterScriptSyntax": "", 
-    "key": "betddeletepythondropboxuploaderpy", 
-    "name": "BETD Delete PythonDropboxUploader.py", 
+    "key": "betdrunpythondropboxuploaderattunepy", 
+    "name": "BETD Run PythonDropboxUploader-Attune.py", 
     "osCredKey": "hypervhostuser", 
     "serverKey": "hypervhost", 
     "successExitCode": 0, 
-    "timeout": 5, 
+    "timeout": 432000, 
     "type": "com.servertribe.attune.tuples.StepWinRmTuple"
 }

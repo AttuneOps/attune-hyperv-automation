@@ -1,0 +1,5 @@
+{
+    "key": "pythondropboxsessionuploaderattune", 
+    "name": "Python Dropbox Session Uploader - Attune", 
+    "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"
+}

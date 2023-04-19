@@ -1,2 +1,0 @@
-cd C:\Users\Public\Downloads
-python PythonDropboxUploader.py
