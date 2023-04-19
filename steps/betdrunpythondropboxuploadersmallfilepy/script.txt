@@ -1,12 +1,11 @@
 cd C:\Users\Public\Downloads
 
-$ACCESS_TOKEN_FILE = "{dropboxRefreshToken.user}AccessToken.txt"
+$VM='{targetServer.name}'
+$ACCESS_TOKEN_FILE = "$VM-{dropboxRefreshToken.user}AccessToken.txt"
 
 $ACCESS_TOKEN = Get-Content $ACCESS_TOKEN_FILE -Raw
-Write-Host "b4 ACCESS_TOKEN=[$ACCESS_TOKEN]"
 
+# Remove the trailing new line character
 $ACCESS_TOKEN = $ACCESS_TOKEN.replace("`n", "")
-
-Write-Host "after ACCESS_TOKEN=[$ACCESS_TOKEN]"
 
 python PythonDropboxUploaderSmallFile.py $ACCESS_TOKEN

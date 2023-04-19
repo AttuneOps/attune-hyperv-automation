@@ -22,18 +22,22 @@
         }, 
         {
             "order": 200, 
-            "stepKey": "betdsftpullaccesstokenfile"
+            "stepKey": "betdsftdeleteaccesstokenfile"
         }, 
         {
             "order": 250, 
-            "stepKey": "betdrunpythondropboxuploadersmallfilepy"
+            "stepKey": "betdsftpullaccesstokenfile"
         }, 
         {
             "order": 300, 
-            "stepKey": "betdsftdeletepythondropboxuploadersmallfilepy"
+            "stepKey": "betdrunpythondropboxuploadersmallfilepy"
         }, 
         {
             "order": 350, 
+            "stepKey": "betdsftdeletepythondropboxuploadersmallfilepy"
+        }, 
+        {
+            "order": 400, 
             "stepKey": "betdsftdeleteaccesstokenfile"
         }
     ], 

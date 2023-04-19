@@ -30,7 +30,27 @@
         }, 
         {
             "order": 300, 
+            "stepKey": "betdsftdeleteaccesstokenfile"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "betdsftpullaccesstokenfile"
+        }, 
+        {
+            "order": 400, 
             "stepKey": "bpetdrunpythondropboxuploaderpeekpy"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "bpetddeletepythondropboxuploaderpeekpy"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "betdsftdeleteaccesstokenfile"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "betddeletezipexport"
         }
     ], 
     "name": "Backup Peek Export to Dropbox", 

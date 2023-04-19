@@ -1,11 +1,20 @@
 $CLIENT = New-Object System.Net.WebClient
 
-$ACCESS_TOKEN_FILE = "{dropboxRefreshToken.user}AccessToken.txt"
+# Original name of the access token file on Attune
+$ACCESS_TOKEN_FILE_REMOTE = "{dropboxRefreshToken.user}AccessToken.txt"
 
-# The path is relative to c:\Users\Public\Downloads\
-$ACCESS_TOKEN_PATH = "dropboxAccessTokens\{dropboxRefreshToken.user}\$ACCESS_TOKEN_FILE"
+# The remote access token file will be at a directory like:
+# /home/attune/kickstart/dropboxAccessTokens/Kean
 
-$URL = "http://{attuneOsBuildServer.ip}:8050/$ACCESS_TOKEN_PATH"
-$PATH = "c:\Users\Public\Downloads\$ACCESS_TOKEN_FILE"
+# Add the VM name to the Access Token filename so another
+# job for another VM does not delete the access token file 
+# required by the current job.
+$VM='{targetServer.name}'
+$ACCESS_TOKEN_FILE_LOCAL = "$VM-{dropboxRefreshToken.user}AccessToken.txt"
+
+# Save the file to c:\Users\Public\Downloads\
+
+$URL = "http://{attuneOsBuildServer.ip}:8050/dropboxAccessTokens/{dropboxRefreshToken.user}/$ACCESS_TOKEN_FILE_REMOTE"
+$PATH = "c:\Users\Public\Downloads\$ACCESS_TOKEN_FILE_LOCAL"
 
 $CLIENT.DownloadFile($URL, $PATH)

@@ -1,7 +1,12 @@
 $DIRECTORY = "C:\Users\Public\Downloads"
 Set-Location $DIRECTORY
 
-$FILE = "{dropboxRefreshToken.user}AccessToken.txt"
+# Add the VM name to the Access Token filename so another
+# job for another VM does not delete the access token file 
+# required by the current job.
+$VM='{targetServer.name}'
+
+$FILE = "$VM-{dropboxRefreshToken.user}AccessToken.txt"
 
 if (Test-Path -Path $FILE -PathType Leaf) {
     Remove-Item "$FILE"
