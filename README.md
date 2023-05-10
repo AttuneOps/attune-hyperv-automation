@@ -98,6 +98,15 @@ This Project contains the following Blueprints.
 
 
 
+### Backup Attune Export to Dropbox
+
+
+### Backup Export to Dropbox Small File Test
+
+
+### Backup Peek Export to Dropbox
+
+
 ### Enable WSMan on Attune
 
 
@@ -116,6 +125,9 @@ This Project contains the following Blueprints.
 ### Kickstart RHEL8.7+HyperV+UEFI
 
 
+### Refresh Dropbox Access Token
+
+
 ### WinPE Kickstart Win10+HyperV
 
 
@@ -123,18 +135,6 @@ This Project contains the following Blueprints.
 
 
 ### WIN Reboot
-
-
-### Backup Export to Dropbox Small File Test
-
-
-### Backup Peek Export to Dropbox
-
-
-### Refresh Dropbox Access Token
-
-
-### Backup Attune Export to Dropbox
 
 
 
@@ -148,6 +148,13 @@ This Project contains the following Blueprints.
 | Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` | This variable is used in the "Kickstart" build procedures, so the "Attune Server" can be used to build Attune servers. |
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` | The subnet that the various DevOps servers are in. |
 | Dropbox Access Token | Basic Credential | `dropboxaccesstoken` | None |
+| Dropbox App Key | Basic Credential | `dropboxappkey` | None |
+| Dropbox App Secret | Basic Credential | `dropboxappsecret` | None |
+| Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.
+Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
+| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` | None |
+| Export Attune Version | Text | `exportattuneversion` | None |
+| Export Peek Version | Text | `exportpeekversion` | None |
 | HyperV Export Directory | Text | `hypervexportdirectory` | None |
 | HyperV Host | Windows Node | `hypervhost` | None |
 | HyperV Host User | Windows Credential | `hypervhostuser` | None |
@@ -183,13 +190,6 @@ For example, the server being built if the procedure is building a server. |
 | Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
 | WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
-| Dropbox App Key | Basic Credential | `dropboxappkey` | None |
-| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` | None |
-| Dropbox App Secret | Basic Credential | `dropboxappsecret` | None |
-| Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.
-Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
-| Export Attune Version | Text | `exportattuneversion` | None |
-| Export Peek Version | Text | `exportpeekversion` | None |
 
 
 
@@ -201,6 +201,12 @@ Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
+| Python Dropbox Session Uploader - Attune | Version Controlled Files | Uses session to upload files up to 350 GB.
+https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
+https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
+| Python Dropbox Session Uploader - Peek | Version Controlled Files | Uses session to upload files up to 350 GB.
+https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
+https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
 | Python Dropbox Uploader | Version Controlled Files | This is for testing uploads using small files. |
 | RHEL8.7 Boot ISO | Large Archives | None |
 | RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
@@ -212,12 +218,6 @@ Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
 
 Changed LogonCount from 1 to 88. |
 | WIN Win2019 Unattended Config HyperV | Version Controlled Files | This is the same as file archive "WIN Win2019 Unattended Config with Drivers". |
-| Python Dropbox Session Uploader - Peek | Version Controlled Files | Uses session to upload files up to 350 GB.
-https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
-https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
-| Python Dropbox Session Uploader - Attune | Version Controlled Files | Uses session to upload files up to 350 GB.
-https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
-https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
 
 
 
