@@ -9,6 +9,10 @@
             "stepKey": "kshstopvm"
         }, 
         {
+            "order": 50, 
+            "stepKey": "kshremovesnapshots"
+        }, 
+        {
             "order": 100, 
             "stepKey": "kshurlvmdeletegeneration2vm"
         }, 
