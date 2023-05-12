@@ -4,6 +4,22 @@ cd "{virtualHardDiskFolder}"
 # name of VM, this just applies in Windows, it isn't applied to the OS guest itself.
 $VM = '{targetServer.name}'
 
+# Remove Hard Disk From VM
+$DISKS = Get-VMHardDiskDrive -VMName $VM
+$i = 0
+foreach ($DISK in $DISKS) {
+
+    Write-Host "$i. Removing disk $($DISK.ControllerLocation)"
+    Remove-VMHardDiskDrive -VMName $VM `
+        -ControllerType $DISK."ControllerType" `
+        -ControllerNumber $DISK."ControllerNumber" `
+        -ControllerLocation $DISK."ControllerLocation"
+
+    $i++
+}
+
+# Remove Hard Disk VM Files on Hyper-V Server
+
 # Path of the VM's virtual disk
 # The full path will look something like "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\{targetServer.name}-disk1.vhdx"
 
