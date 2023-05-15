@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "30fa910f-6b11-4aa5-9e77-58341742f92b", 
     "interpreter": 1, 
     "key": "etcsftestcopyitemforsmallfile", 
     "name": "ETCSF Test Copy-Item for Small File", 

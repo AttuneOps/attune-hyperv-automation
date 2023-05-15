@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "fce0aac2-1900-4cb1-a481-46c6f36fba0a", 
     "isBlueprint": true, 
     "key": "winpekickstartwin10hyperv", 
     "links": [

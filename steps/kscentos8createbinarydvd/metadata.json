@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "21e08d61-2df3-4e21-9770-9112643b57d5", 
     "interpreter": 1, 
     "key": "kscentos8createbinarydvd", 
     "name": "KS CentOS8 Create Binary DVD", 

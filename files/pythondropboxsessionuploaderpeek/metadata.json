@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "2e0e0ff5-74db-4513-8c9b-6b2c9d3e146f", 
     "key": "pythondropboxsessionuploaderpeek", 
     "name": "Python Dropbox Session Uploader - Peek", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

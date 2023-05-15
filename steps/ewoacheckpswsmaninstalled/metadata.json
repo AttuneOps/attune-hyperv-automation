@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "25b97db5-778b-4e3d-9ddb-73281190cd6a", 
     "interpreter": 1, 
     "key": "ewoacheckpswsmaninstalled", 
     "name": "EWOA Check PSWSMan Installed", 

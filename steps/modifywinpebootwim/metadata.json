@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "604a482e-576f-4ca4-aa0f-62266e60bd89", 
     "isBlueprint": false, 
     "key": "modifywinpebootwim", 
     "links": [

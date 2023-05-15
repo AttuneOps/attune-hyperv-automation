@@ -2,6 +2,7 @@
     "archiveKey": "centos8kickstartconfig", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "ed6381b8-33b8-47c2-a70c-1068ddb2340b", 
     "key": "kscentos88deploykickstartconfig", 
     "makoFileNames": [
         "ks.cfg"

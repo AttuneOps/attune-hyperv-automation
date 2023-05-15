@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "b36647aa-392b-42ea-9961-2770fabc9071", 
     "interpreter": 1, 
     "key": "ewoaruninstallwsman", 
     "name": "EWOA Run Install-WSMan ", 

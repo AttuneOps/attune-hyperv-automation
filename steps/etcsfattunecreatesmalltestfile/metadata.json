@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "24496586-ee58-4acc-93fa-0a0a13cbc178", 
     "interpreter": 1, 
     "key": "etcsfattunecreatesmalltestfile", 
     "name": "ETCSF Attune Create Small Test File", 

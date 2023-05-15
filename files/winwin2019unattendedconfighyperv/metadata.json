@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "a38b3616-2f31-47fb-b1ee-40d7d7fd55d3", 
     "key": "winwin2019unattendedconfighyperv", 
     "name": "WIN Win2019 Unattended Config HyperV", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

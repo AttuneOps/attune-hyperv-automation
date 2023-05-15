@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "95175ca0-5884-4f0b-b9eb-12b252b6fa4c", 
     "interpreter": 1, 
     "key": "modifystartnetcmd", 
     "name": "Modify startnet.cmd", 

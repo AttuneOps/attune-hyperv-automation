@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "93547357-8346-40d7-afd6-f2f941c159a5", 
     "interpreter": 1, 
     "key": "kshchecksha256sum", 
     "name": "KSH Check SHA256 Sum", 

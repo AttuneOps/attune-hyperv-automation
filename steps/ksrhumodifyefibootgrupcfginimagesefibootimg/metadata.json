@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "5c24567b-e321-4dd0-b296-e3510507d663", 
     "isBlueprint": false, 
     "key": "ksrhumodifyefibootgrupcfginimagesefibootimg", 
     "links": [

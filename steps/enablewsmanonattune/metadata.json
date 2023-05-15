@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "7c7df9fc-6edd-4b6b-bea8-0ebf699693a6", 
     "isBlueprint": true, 
     "key": "enablewsmanonattune", 
     "links": [

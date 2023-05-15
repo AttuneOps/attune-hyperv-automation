@@ -2,6 +2,7 @@
     "archiveKey": "winwin2019unattendedconfighyperv", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "06ca4965-5ecd-46d2-96a8-9507633a8553", 
     "key": "kshypervdeploywin2019unattendedconfig", 
     "makoFileNames": [
         "autounattend.xml"

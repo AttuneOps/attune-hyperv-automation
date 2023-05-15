@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "d2c27522-9b4b-48f0-a277-46a538f017d1", 
     "interpreter": 1, 
     "key": "kswimlibunmountbootwimifmounted", 
     "name": "KS wimlib Unmount boot.wim if Mounted", 

@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "8f10697f-d0da-479c-b7f6-6124efa8b52a", 
     "interpreter": 1, 
     "key": "ksrhvuunmountmnt", 
     "name": "KSRHVU Unmount /mnt", 

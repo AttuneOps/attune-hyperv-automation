@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e735dc22-50b4-45e0-9f15-3dd11541309f", 
     "interpreter": 1, 
     "key": "kshcleanbuildfilesasnormaluser", 
     "name": "KSH Clean Build Files as Normal User", 

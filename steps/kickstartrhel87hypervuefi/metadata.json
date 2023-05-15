@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "f56f6123-87e5-4b01-939c-7d55acb132f5", 
     "isBlueprint": true, 
     "key": "kickstartrhel87hypervuefi", 
     "links": [

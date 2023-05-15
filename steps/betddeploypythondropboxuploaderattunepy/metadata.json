@@ -2,6 +2,7 @@
     "archiveKey": "pythondropboxsessionuploaderattune", 
     "deployPath": "/c$/", 
     "enabled": true, 
+    "externalUuid4": "9e4f9c87-7f79-4e51-b289-6d4f5273bf23", 
     "key": "betddeploypythondropboxuploaderattunepy", 
     "makoFileNames": [
         "Users/Public/Downloads/PythonDropboxUploader-Attune.py"

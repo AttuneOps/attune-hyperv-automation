@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "7cdc57aa-b8d6-495b-b409-47fb636cab12", 
     "isBlueprint": true, 
     "key": "winreboot", 
     "links": [

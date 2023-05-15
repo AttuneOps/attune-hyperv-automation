@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "cfb1a001-b839-49f7-a4d4-953e2642113f", 
     "isBlueprint": false, 
     "key": "betdinstallpythongroup", 
     "links": [

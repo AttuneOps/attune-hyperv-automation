@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "fd872209-4b2b-474e-9d09-1ffe006a1e90", 
     "key": "winwin10unattendedconfighyperv7working", 
     "name": "WIN Win10 Unattended Config HyperV 7 - Working", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

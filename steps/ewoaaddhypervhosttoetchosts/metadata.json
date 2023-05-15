@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "f5d13a49-d368-4e6e-a3eb-f85bb1fafc22", 
     "interpreter": 1, 
     "key": "ewoaaddhypervhosttoetchosts", 
     "name": "EWOA Add Hyper-V Host to /etc/hosts", 

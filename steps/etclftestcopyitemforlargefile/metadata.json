@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "23cee5a0-93a8-4dfd-9ecf-8461ab92f669", 
     "interpreter": 1, 
     "key": "etclftestcopyitemforlargefile", 
     "name": "ETCLF Test Copy-Item for Large File", 

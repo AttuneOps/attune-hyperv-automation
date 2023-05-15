@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "904bb9a8-6836-4769-b704-3714dd214613", 
     "interpreter": 1, 
     "key": "kshcleanbuildfilesasroot", 
     "name": "KSH Clean Build Files as Root", 

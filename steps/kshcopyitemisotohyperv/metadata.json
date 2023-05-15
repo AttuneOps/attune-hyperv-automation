@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e75b82ba-1583-4e03-b612-306f4a8e4746", 
     "interpreter": 1, 
     "key": "kshcopyitemisotohyperv", 
     "name": "KSH Copy-Item ISO to Hyper-V", 

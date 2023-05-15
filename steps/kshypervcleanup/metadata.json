@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "c162c3e6-3251-4842-a164-231abfe65911", 
     "isBlueprint": false, 
     "key": "kshypervcleanup", 
     "links": [

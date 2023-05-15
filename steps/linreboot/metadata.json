@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "8c8e183f-272d-445e-8271-e6fe756c0ddc", 
     "interpreter": 1, 
     "key": "linreboot", 
     "name": "LIN Reboot", 

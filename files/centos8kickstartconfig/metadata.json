@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "75bbc6eb-e360-4504-87c7-8bcebf729c1d", 
     "key": "centos8kickstartconfig", 
     "name": "CentOS8 Kickstart Config", 
     "type": "com.servertribe.attune.tuples.FileArchiveVersionedTuple"

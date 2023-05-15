@@ -1,5 +1,6 @@
 {
     "enabled": true, 
+    "externalUuid4": "e74839df-f2d8-42a8-8b34-d0f8187b07a7", 
     "interpreter": 1, 
     "key": "kscleanbuildfiles", 
     "name": "KS Clean Build Files", 

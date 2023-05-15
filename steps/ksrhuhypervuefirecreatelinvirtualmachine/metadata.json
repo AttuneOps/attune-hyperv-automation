@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "4e3e8859-0d86-448f-b857-2ad2ff09f1bb", 
     "isBlueprint": false, 
     "key": "ksrhuhypervuefirecreatelinvirtualmachine", 
     "links": [
@@ -10,7 +11,7 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "kshremovesnapshots"
+            "stepKey": "kshremovecheckpoints"
         }, 
         {
             "order": 100, 

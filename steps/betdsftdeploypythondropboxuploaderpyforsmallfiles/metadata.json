@@ -2,6 +2,7 @@
     "archiveKey": "pythondropboxuploader", 
     "deployPath": "/c$/", 
     "enabled": true, 
+    "externalUuid4": "a596d7b5-e9c5-40a9-9ceb-0038074651de", 
     "key": "betdsftdeploypythondropboxuploaderpyforsmallfiles", 
     "makoFileNames": [
         "Users/Public/Downloads/PythonDropboxUploaderSmallFile.py"

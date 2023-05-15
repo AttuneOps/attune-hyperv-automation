@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "cca42582-aaa0-4b1f-b253-9c917f74eb4d", 
     "isBlueprint": false, 
     "key": "ewoatestcopyitemlargefile", 
     "links": [

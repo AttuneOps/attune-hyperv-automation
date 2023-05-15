@@ -2,6 +2,7 @@
     "archiveKey": "winpeisoforwindows10hyperv", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "8deadb31-15c9-442b-8d2e-f7cb736e11cb", 
     "key": "kswin10deploywinpeisohyperv", 
     "name": "KS Win10 Deploy WinPE ISO Hyper-V", 
     "osCredKey": "linuxattuneuser", 

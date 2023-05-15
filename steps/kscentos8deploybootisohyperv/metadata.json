@@ -2,6 +2,7 @@
     "archiveKey": "centos8bootisov842105", 
     "deployPath": "{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}", 
     "enabled": true, 
+    "externalUuid4": "8207c612-a1ff-4ddd-9c25-4249163d5ac9", 
     "key": "kscentos8deploybootisohyperv", 
     "name": "KS CentOS8 Deploy Boot ISO Hyper-V", 
     "osCredKey": "linuxattuneuser", 

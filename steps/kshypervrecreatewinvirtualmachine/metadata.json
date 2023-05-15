@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "6870da37-b533-41e4-9895-d7bd67c7c242", 
     "isBlueprint": false, 
     "key": "kshypervrecreatewinvirtualmachine", 
     "links": [
