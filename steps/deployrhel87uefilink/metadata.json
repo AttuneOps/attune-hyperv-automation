@@ -1,0 +1,14 @@
+{
+    "blueprintName": "Kickstart RHEL8.7", 
+    "blueprintUuid": "e4e05709-021f-4b1d-b22e-e549c4adc52e", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "e4e05709-021f-4b1d-b22e-e549c4adc52e", 
+    "key": "deployrhel87uefilink", 
+    "name": "Deploy RHEL8.7 UEFI (Link)", 
+    "parameterMap": [], 
+    "projectName": "Kickstart RHEL", 
+    "projectUuid": "cf557484-260a-4e9e-a8c8-f4e56b530494", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

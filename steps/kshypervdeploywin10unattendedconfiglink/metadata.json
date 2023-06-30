@@ -1,0 +1,25 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "Deploy Win10 Unattended Config", 
+    "blueprintUuid": "e6bb677e-ab79-4741-bd71-5d81051003e5", 
+    "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
+    "enabled": true, 
+    "externalUuid4": "33b48494-85ba-4d5b-9ae7-36f6eb38c75b", 
+    "key": "kshypervdeploywin10unattendedconfiglink", 
+    "name": "KS Hyper-V Deploy Win10 Unattended Config (Link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "6942c5d9-c0a5-4dd8-a8b8-d43c0dc75654", 
+            "childProjectName": null, 
+            "childProjectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "Ethernet"
+        }
+    ], 
+    "projectName": "WinPE Deploy", 
+    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

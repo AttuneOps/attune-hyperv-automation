@@ -1,1 +1,0 @@
-https://www.theictguy.co.uk/remove-vmsnapshot/

@@ -42,52 +42,8 @@ You can learn more about Attune through
 
 # Clone this Project
 
-Clone this project into your own instance of Attune.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project"/>
-
----
-
-Paste the GIT repository URL into Attune and Select Clone.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project"/>
-
----
-
-**Now that this project is in your Attune instance you can begin creating
-Jobs.**
-
-Navigate to the Plan workspace and create a Job from a Blueprint in the
-Project you cloned.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-11.png" alt="plan a new job"/>
-
----
-
-Configure the Parameters for the Job you created. Create the Values you're
-missing in the next step.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-12.png" alt="plan a new job"/>
-
----
-
-Create the Values required to fill the Parameters for the Job.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-13-1.png" alt="plan a new job"/>
-
----
-
-Run your Job.
-
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job"/>
-
----
-
-**Congratulations, you’ve run a cloned project.**
-
-If you need further assistance, please explore our help.
-
-<img width=200 src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help"/>
+To clone this project into your own instance of Attune, follow the
+[Clone a GIT Project How To Instructions](https://servertribe-attune.readthedocs.io/en/latest/howto/design_workspace/clone_project.html).
 
 
 
@@ -134,9 +90,6 @@ This Project contains the following Blueprints.
 ### WinPE Kickstart Win2019+HyperV
 
 
-### WIN Reboot
-
-
 
 
 
@@ -147,77 +100,50 @@ This Project contains the following Blueprints.
 | ---- | ---- | ---------------- | ------- |
 | Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` | This variable is used in the "Kickstart" build procedures, so the "Attune Server" can be used to build Attune servers. |
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` | The subnet that the various DevOps servers are in. |
-| Dropbox Access Token | Basic Credential | `dropboxaccesstoken` | None |
-| Dropbox App Key | Basic Credential | `dropboxappkey` | None |
-| Dropbox App Secret | Basic Credential | `dropboxappsecret` | None |
-| Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.
-Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
-| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` | None |
-| Export Attune Version | Text | `exportattuneversion` | None |
-| Export Peek Version | Text | `exportpeekversion` | None |
-| HyperV Export Directory | Text | `hypervexportdirectory` | None |
-| HyperV Host | Windows Node | `hypervhost` | None |
-| HyperV Host User | Windows Credential | `hypervhostuser` | None |
-| Iso Folder | Text | `isofolder` | None |
-| Kickstart Organisation Name | Text | `kickstartorganisationname` | None |
-| KS Linux: Disk First Letter | Text | `kslinuxdiskfirstletter` | The first letter of the disk in Linux, EG, sda or xda
-
-s = sda for VMWare, Hyper-V and most servers
-v = vda for oVirt/RHEV
-x = xda for Citrix Xen |
-| KS: VM CPU Count | Text | `ksvmcpucount` | None |
-| KS: VM Ram Size GB | Text | `ksvmramsizegb` | None |
-| KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` | None |
-| KS: Windows Interface Alias | Text | `kswindowsinterfacealias` | oVirt Deployments = "Ethernet"
-ESXi Deployments = "Ethernet0"
-
-This is the "InternetAlias" of the interface shown when you run "get-netipaddress" from powershell on the machine. |
+| Dropbox Access Token | Basic Credential | `dropboxaccesstoken` |  |
+| Dropbox App Key | Basic Credential | `dropboxappkey` |  |
+| Dropbox App Secret | Basic Credential | `dropboxappsecret` |  |
+| Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.<br>Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
+| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` |  |
+| Export Attune Version | Text | `exportattuneversion` |  |
+| Export Peek Version | Text | `exportpeekversion` |  |
+| HyperV Export Directory | Text | `hypervexportdirectory` |  |
+| HyperV Host | Windows Node | `hypervhost` |  |
+| HyperV Host User | Windows Credential | `hypervhostuser` |  |
+| Iso Folder | Text | `isofolder` |  |
+| KS Linux: Disk First Letter | Text | `kslinuxdiskfirstletter` | The first letter of the disk in Linux, EG, sda or xda<br><br>s = sda for VMWare, Hyper-V and most servers<br>v = vda for oVirt/RHEV<br>x = xda for Citrix Xen |
+| KS: VM CPU Count | Text | `ksvmcpucount` |  |
+| KS: VM Ram Size GB | Text | `ksvmramsizegb` |  |
+| KS VMWare: Attune Base Dir | Text | `ksvmwareattunebasedir` |  |
+| KS: Windows Interface Alias | Text | `kswindowsinterfacealias` | oVirt Deployments = "Ethernet"<br>ESXi Deployments = "Ethernet0"<br><br>This is the "InternetAlias" of the interface shown when you run "get-netipaddress" from powershell on the machine. |
 | Large Test File Name | Text | `largetestfilename` | File name of large test file to be created on Attune in /tmp and used for testing Copy-Item. |
-| Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` | None |
-| Linux: Root User | Linux/Unix Credential | `linuxrootuser` | None |
-| oVirt: TimeZone | Text | `ovirttimezone` | None |
-| RHEL: 8 baseos Repo URL | Text | `rhel8baseosrepourl` | None |
-| RPM Server | Linux/Unix Node | `rpmserver` | None |
+| Linux: Attune User | Linux/Unix Credential | `linuxattuneuser` |  |
+| Linux: Root User | Linux/Unix Credential | `linuxrootuser` |  |
+| RPM Server | Linux/Unix Node | `rpmserver` |  |
 | Samba Windows Directory | Text | `sambawindowsdirectory` | The extracted Windows Directory on the Samba server that we want to run setup.exe from. |
 | Small Test File Name | Text | `smalltestfilename` | File name of small test file to be created on Attune in /tmp and used for testing Copy-Item. |
-| Target Server | Basic Node | `targetserver` | None |
-| Target Server: Lin | Linux/Unix Node | `targetserverlin` | The target server is a generic placeholder, usually used for the server a script will run on.
-For example, the server being built if the procedure is building a server. |
-| Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` | None |
-| Target Server: Win | Windows Node | `targetserverwin` | None |
-| Target Subnet | Network IPv4 Subnet | `targetsubnet` | None |
-| test parameter | Text | `testparameter` | None |
-| Virtual Hard Disk Folder | Text | `virtualharddiskfolder` | None |
+| Target Server | Basic Node | `targetserver` |  |
+| Target Server: Lin | Linux/Unix Node | `targetserverlin` | The target server is a generic placeholder, usually used for the server a script will run on.<br>For example, the server being built if the procedure is building a server. |
+| Target Server: Linux TimeZone | Text | `targetserverlinuxtimezone` |  |
+| Target Server: Win | Windows Node | `targetserverwin` |  |
+| Target Subnet | Network IPv4 Subnet | `targetsubnet` |  |
+| test parameter | Text | `testparameter` |  |
+| Virtual Hard Disk Folder | Text | `virtualharddiskfolder` |  |
 | Windows: Administrator | Windows Credential | `windowsadministrator` | The windows administrator user |
-| WinPE Samba Server | Linux/Unix Node | `winpesambaserver` | None |
 
 
 
 
 ## Files
 
-
 | Name | Type | Comment |
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
-| Python Dropbox Session Uploader - Attune | Version Controlled Files | Uses session to upload files up to 350 GB.
-https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
-https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
-| Python Dropbox Session Uploader - Peek | Version Controlled Files | Uses session to upload files up to 350 GB.
-https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch
-https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
+| Python Dropbox Session Uploader - Attune | Version Controlled Files | Uses session to upload files up to 350 GB.<br>https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch<br>https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
+| Python Dropbox Session Uploader - Peek | Version Controlled Files | Uses session to upload files up to 350 GB.<br>https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch<br>https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
 | Python Dropbox Uploader | Version Controlled Files | This is for testing uploads using small files. |
-| RHEL8.7 Boot ISO | Large Archives | None |
-| RHEL8.7 grub.cfg Inside efiboot.img | Version Controlled Files | None |
-| RHEL8.7 Kickstart Config UEFI | Version Controlled Files | None |
-| WinPE ISO for Windows 10 Hyper-V | Large Archives | This is currently the same as "WinPE ISO for Windows 10 oVirt". |
 | WinPE ISO for Windows 2019 Hyper-V | Large Archives | Taken from nzte1att2 file archive "WinPE 2019 ISO". |
-| WinPE startnet.cmd | Version Controlled Files | None |
-| WIN Win10 Unattended Config HyperV 7 - Working | Version Controlled Files | Copied from "WIN Win10 Unattended Config HyperV".
-
-Changed LogonCount from 1 to 88. |
-| WIN Win2019 Unattended Config HyperV | Version Controlled Files | This is the same as file archive "WIN Win2019 Unattended Config with Drivers". |
 
 
 

@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "KS Hyper-V Recreate Win Virtual Machine", 
+    "blueprintUuid": "6870da37-b533-41e4-9895-d7bd67c7c242", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "6870da37-b533-41e4-9895-d7bd67c7c242", 
+    "key": "kshypervrecreatewinvirtualmachinelink", 
+    "name": "KS Hyper-V Recreate Win Virtual Machine (Link)", 
+    "parameterMap": [], 
+    "projectName": "Hyper-V PowerShell API", 
+    "projectUuid": "dd5c4a7e-c6ee-4a2d-9d18-f55d2f29e825", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

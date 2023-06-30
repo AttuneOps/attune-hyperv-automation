@@ -1,4 +1,5 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
     "externalUuid4": "bbda2fb7-f576-46eb-9483-6c6e5cb28b01", 

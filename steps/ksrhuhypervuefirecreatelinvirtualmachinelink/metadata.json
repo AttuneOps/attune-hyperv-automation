@@ -1,0 +1,14 @@
+{
+    "blueprintName": "KSRHU Hyper-V UEFI Recreate Lin Virtual Machine", 
+    "blueprintUuid": "4e3e8859-0d86-448f-b857-2ad2ff09f1bb", 
+    "cloneUrl": null, 
+    "enabled": true, 
+    "externalUuid4": "4e3e8859-0d86-448f-b857-2ad2ff09f1bb", 
+    "key": "ksrhuhypervuefirecreatelinvirtualmachinelink", 
+    "name": "KSRHU Hyper-V UEFI Recreate Lin Virtual Machine (Link)", 
+    "parameterMap": [], 
+    "projectName": "Hyper-V PowerShell API", 
+    "projectUuid": "dd5c4a7e-c6ee-4a2d-9d18-f55d2f29e825", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

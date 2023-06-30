@@ -1,2 +1,0 @@
-cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
-umount ./temporary_mount

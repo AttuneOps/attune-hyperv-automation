@@ -1,7 +1,0 @@
-{
-    "externalUuid4": "a1d91da9-58c4-43bd-89e5-b1644a6f90fa", 
-    "key": "rhel8baseosrepourl", 
-    "name": "RHEL: 8 baseos Repo URL", 
-    "showInPlan": true, 
-    "type": "c.s.s.b.phv.Text"
-}

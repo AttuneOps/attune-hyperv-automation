@@ -1,4 +1,5 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
     "externalUuid4": "f56f6123-87e5-4b01-939c-7d55acb132f5", 
@@ -10,20 +11,8 @@
             "stepKey": "kshypervcleanbuildfiles"
         }, 
         {
-            "order": 150, 
-            "stepKey": "ksrhudeployrhel87bootiso"
-        }, 
-        {
             "order": 200, 
-            "stepKey": "ksrhudeployrhel87kickstartconfiguefi"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "ksrhumodifyefibootgrupcfginimagesefibootimg"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "ksrhurhel87createuefibinarydvd"
+            "stepKey": "deployrhel87uefilink"
         }, 
         {
             "order": 500, 
@@ -31,7 +20,7 @@
         }, 
         {
             "order": 550, 
-            "stepKey": "ksrhuhypervuefirecreatelinvirtualmachine"
+            "stepKey": "ksrhuhypervuefirecreatelinvirtualmachinelink"
         }, 
         {
             "order": 600, 

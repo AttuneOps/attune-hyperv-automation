@@ -1,4 +1,5 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
     "externalUuid4": "6de150d9-c868-4cf0-9ccd-dd5a7dd14029", 
@@ -7,62 +8,42 @@
     "links": [
         {
             "order": 0, 
-            "stepKey": "kswimlibunmountbootwimifmounted"
+            "stepKey": "kscleanbuildfiles"
         }, 
         {
             "order": 50, 
-            "stepKey": "kscleanbuildfiles"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "kswin2019deploywinpeisohyperv"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "ksextractwinpeiso"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "ksextractwinpebootimg"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "ksmovebootimgtoextractedwinpefolder"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "kshypervdeploywin2019unattendedconfig"
-        }, 
-        {
-            "order": 350, 
-            "stepKey": "ksmoveautounattendxmltoextractedwinpefolder"
+            "stepKey": "winpedeploywinpefilesforhypervlink"
         }, 
         {
             "order": 400, 
-            "stepKey": "modifywinpebootwim"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "kswinpecreatebootiso"
+            "stepKey": "kshypervdeploywin2019unattendedconfiglink"
         }, 
         {
             "order": 500, 
-            "stepKey": "kshypervrecreatewinvirtualmachine"
+            "stepKey": "modifywinpebootwimlink"
         }, 
         {
             "order": 550, 
-            "stepKey": "kscleanbuildfiles"
-        }, 
-        {
-            "order": 600, 
-            "stepKey": "ksdeleteisoonhypervhost"
+            "stepKey": "kswinpecreatebootisoparentlink"
         }, 
         {
             "order": 650, 
-            "stepKey": "winreboot"
+            "stepKey": "kshypervrecreatewinvirtualmachinelink"
         }, 
         {
             "order": 700, 
+            "stepKey": "kscleanbuildfiles"
+        }, 
+        {
+            "order": 750, 
+            "stepKey": "ksdeleteisoonhypervhost"
+        }, 
+        {
+            "order": 800, 
+            "stepKey": "winrebootlink"
+        }, 
+        {
+            "order": 900, 
             "stepKey": "winrmhttpswait120s"
         }
     ], 

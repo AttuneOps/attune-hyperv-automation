@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "6cb93548-d00a-4f13-ba89-46e7cec94b7c", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "27ff9d20-ef7e-46e6-965f-95a69797a535", 
+    "key": "winrebootlink", 
+    "name": "WIN Reboot (Link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "4b38522a-915c-467f-b275-d91010a05dc6", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
