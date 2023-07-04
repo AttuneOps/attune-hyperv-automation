@@ -12,7 +12,11 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "winpedeploywinpefilesforhypervlink"
+            "stepKey": "winpedeploywinpefilesforhyperv"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ksextractwinpeisoparentlink"
         }, 
         {
             "order": 400, 
@@ -20,7 +24,7 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "modifywinpebootwimlink"
+            "stepKey": "modifywinpebootwimfor2016link"
         }, 
         {
             "order": 550, 

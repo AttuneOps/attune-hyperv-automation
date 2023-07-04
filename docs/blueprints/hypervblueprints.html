@@ -385,8 +385,8 @@
         
 
                     <h6 class="text-muted pt-2">
-                        <a href="#winpedeploywinpefilesforhypervlink">
-                            <strong>Step 2.2 -</strong> WinPE Deploy WinPE Files for HyperV (Link)
+                        <a href="#ksextractwinpeisoparentlink">
+                            <strong>Step 2.2 -</strong> KS Extract WinPE ISO - Parent (Link)
                         </a>
                     </h6>
 
@@ -474,8 +474,33 @@
         
 
                     <h6 class="text-muted pt-2">
-                        <a href="#winpedeploywinpefilesforhypervlink">
-                            <strong>Step 3.2 -</strong> WinPE Deploy WinPE Files for HyperV (Link)
+                        <a href="#winpedeploywinpefilesforhyperv">
+                            <strong>Step 3.2 -</strong> WinPE Deploy WinPE Files for HyperV
+                        </a>
+                    </h6>
+    
+        
+
+                    <h6 class="text-muted pt-2">
+                        <a href="#kswimlibunmountbootwimifmounted">
+                            <strong>Step 3.2.1 -</strong> KS wimlib Unmount boot.wim if Mounted
+                        </a>
+                    </h6>
+
+        
+
+                    <h6 class="text-muted pt-2">
+                        <a href="#kswin2019deploywinpeisohyperv">
+                            <strong>Step 3.2.2 -</strong> KS Win2019 Deploy WinPE ISO Hyper-V
+                        </a>
+                    </h6>
+
+
+        
+
+                    <h6 class="text-muted pt-2">
+                        <a href="#ksextractwinpeisoparentlink">
+                            <strong>Step 3.3 -</strong> KS Extract WinPE ISO - Parent (Link)
                         </a>
                     </h6>
 
@@ -483,15 +508,15 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#kshypervdeploywin2019unattendedconfiglink">
-                            <strong>Step 3.3 -</strong> KS Hyper-V Deploy Win2019 Unattended Config (Link)
+                            <strong>Step 3.4 -</strong> KS Hyper-V Deploy Win2019 Unattended Config (Link)
                         </a>
                     </h6>
 
         
 
                     <h6 class="text-muted pt-2">
-                        <a href="#modifywinpebootwimlink">
-                            <strong>Step 3.4 -</strong> Modify WinPE boot.wim (Link)
+                        <a href="#modifywinpebootwimfor2016link">
+                            <strong>Step 3.5 -</strong> Modify WinPE boot.wim for 2016 (Link)
                         </a>
                     </h6>
 
@@ -499,7 +524,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#kswinpecreatebootisoparentlink">
-                            <strong>Step 3.5 -</strong> KS WinPE Create Boot ISO - parent (Link)
+                            <strong>Step 3.6 -</strong> KS WinPE Create Boot ISO - parent (Link)
                         </a>
                     </h6>
 
@@ -507,7 +532,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#kshypervrecreatewinvirtualmachinelink">
-                            <strong>Step 3.6 -</strong> KS Hyper-V Recreate Win Virtual Machine (Link)
+                            <strong>Step 3.7 -</strong> KS Hyper-V Recreate Win Virtual Machine (Link)
                         </a>
                     </h6>
 
@@ -515,7 +540,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#kscleanbuildfiles">
-                            <strong>Step 3.7 -</strong> KS Clean Build Files
+                            <strong>Step 3.8 -</strong> KS Clean Build Files
                         </a>
                     </h6>
 
@@ -523,7 +548,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#ksdeleteisoonhypervhost">
-                            <strong>Step 3.8 -</strong> KS Delete ISO On Hyper-V Host
+                            <strong>Step 3.9 -</strong> KS Delete ISO On Hyper-V Host
                         </a>
                     </h6>
 
@@ -531,7 +556,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#winrebootlink">
-                            <strong>Step 3.9 -</strong> WIN Reboot (Link)
+                            <strong>Step 3.10 -</strong> WIN Reboot (Link)
                         </a>
                     </h6>
 
@@ -539,7 +564,7 @@
 
                     <h6 class="text-muted pt-2">
                         <a href="#winrmhttpswait120s">
-                            <strong>Step 3.10 -</strong> WinRM HTTPS Wait 120s
+                            <strong>Step 3.11 -</strong> WinRM HTTPS Wait 120s
                         </a>
                     </h6>
 
@@ -2497,9 +2522,9 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
 
 
                     <div class="row pt-5">
-                        <h4 id="winpedeploywinpefilesforhypervlink">
-                            <a href="#winpedeploywinpefilesforhypervlink">
-                                <strong>Step 2.2 -</strong> WinPE Deploy WinPE Files for HyperV (Link)
+                        <h4 id="ksextractwinpeisoparentlink">
+                            <a href="#ksextractwinpeisoparentlink">
+                                <strong>Step 2.2 -</strong> KS Extract WinPE ISO - Parent (Link)
                             </a>
                         </h4>
                     </div>
@@ -2817,6 +2842,11 @@ if (Test-Path $DIRECTORY) {
                         </h4>
                     </div>
 
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
 
 
 
@@ -2974,9 +3004,151 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
 
 
                     <div class="row pt-5">
-                        <h4 id="winpedeploywinpefilesforhypervlink">
-                            <a href="#winpedeploywinpefilesforhypervlink">
-                                <strong>Step 3.2 -</strong> WinPE Deploy WinPE Files for HyperV (Link)
+                        <h3 id="winpedeploywinpefilesforhyperv">
+                            <a href="#winpedeploywinpefilesforhyperv">
+                                <strong>Step 3.2 -</strong> WinPE Deploy WinPE Files for HyperV
+                            </a>
+                        </h3>
+                    </div>
+
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+                    <div class="row pt-5">
+                        <h4 id="kswimlibunmountbootwimifmounted">
+                            <a href="#kswimlibunmountbootwimifmounted">
+                                <strong>Step 3.2.1 -</strong> KS wimlib Unmount boot.wim if Mounted
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+    <div class="row">
+        <p>
+            Execute the following script:
+        </p>
+    </div>
+    <div class="row">
+        <div class="col px-0">
+            <pre>
+                <code class="language-sql py-0">
+if pgrep wimmountrw
+then
+    echo &quot;Unmounting {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}/WinPE_BootImageDir&quot;
+    cd {ksVmwareAttuneBaseDir}/build-{targetServer.fqn}
+    wimunmount WinPE_BootImageDir --commit --check --rebuild
+else
+    echo &quot;Not mounted, skipping.&quot;
+fi
+                </code>
+            </pre>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+                    <div class="row pt-5">
+                        <h4 id="kswin2019deploywinpeisohyperv">
+                            <a href="#kswin2019deploywinpeisohyperv">
+                                <strong>Step 3.2.2 -</strong> KS Win2019 Deploy WinPE ISO Hyper-V
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    <div class="row">
+        <p>
+            <p>Taken from nzte1att2 file archive "WinPE 2019 ISO".</p>
+        </p>
+        <p>
+            Copy the File(s)
+            <strong>WinPE_ISO_for_Windows_201_HyperV.zip</strong>
+            to the target node.
+        </p>
+        <p>
+            <strong>Extract and deploy the File(s)</strong> here:
+        </p>
+    </div>
+    <div class="row py-1">
+        <code class="language-bash">
+{ksVmwareAttuneBaseDir}/build-{targetServer.fqn}, relative to the home directory
+        </code>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+                    <div class="row pt-5">
+                        <h4 id="ksextractwinpeisoparentlink">
+                            <a href="#ksextractwinpeisoparentlink">
+                                <strong>Step 3.3 -</strong> KS Extract WinPE ISO - Parent (Link)
                             </a>
                         </h4>
                     </div>
@@ -3005,7 +3177,7 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
                     <div class="row pt-5">
                         <h4 id="kshypervdeploywin2019unattendedconfiglink">
                             <a href="#kshypervdeploywin2019unattendedconfiglink">
-                                <strong>Step 3.3 -</strong> KS Hyper-V Deploy Win2019 Unattended Config (Link)
+                                <strong>Step 3.4 -</strong> KS Hyper-V Deploy Win2019 Unattended Config (Link)
                             </a>
                         </h4>
                     </div>
@@ -3032,9 +3204,9 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
 
 
                     <div class="row pt-5">
-                        <h4 id="modifywinpebootwimlink">
-                            <a href="#modifywinpebootwimlink">
-                                <strong>Step 3.4 -</strong> Modify WinPE boot.wim (Link)
+                        <h4 id="modifywinpebootwimfor2016link">
+                            <a href="#modifywinpebootwimfor2016link">
+                                <strong>Step 3.5 -</strong> Modify WinPE boot.wim for 2016 (Link)
                             </a>
                         </h4>
                     </div>
@@ -3063,7 +3235,7 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
                     <div class="row pt-5">
                         <h4 id="kswinpecreatebootisoparentlink">
                             <a href="#kswinpecreatebootisoparentlink">
-                                <strong>Step 3.5 -</strong> KS WinPE Create Boot ISO - parent (Link)
+                                <strong>Step 3.6 -</strong> KS WinPE Create Boot ISO - parent (Link)
                             </a>
                         </h4>
                     </div>
@@ -3092,7 +3264,7 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
                     <div class="row pt-5">
                         <h4 id="kshypervrecreatewinvirtualmachinelink">
                             <a href="#kshypervrecreatewinvirtualmachinelink">
-                                <strong>Step 3.6 -</strong> KS Hyper-V Recreate Win Virtual Machine (Link)
+                                <strong>Step 3.7 -</strong> KS Hyper-V Recreate Win Virtual Machine (Link)
                             </a>
                         </h4>
                     </div>
@@ -3121,7 +3293,7 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
                     <div class="row pt-5">
                         <h4 id="kscleanbuildfiles">
                             <a href="#kscleanbuildfiles">
-                                <strong>Step 3.7 -</strong> KS Clean Build Files
+                                <strong>Step 3.8 -</strong> KS Clean Build Files
                             </a>
                         </h4>
                     </div>
@@ -3178,7 +3350,7 @@ ISO=&quot;{ksVmwareAttuneBaseDir}/kickstart_{targetServer.fqn}.iso&quot;
                     <div class="row pt-5">
                         <h4 id="ksdeleteisoonhypervhost">
                             <a href="#ksdeleteisoonhypervhost">
-                                <strong>Step 3.8 -</strong> KS Delete ISO On Hyper-V Host
+                                <strong>Step 3.9 -</strong> KS Delete ISO On Hyper-V Host
                             </a>
                         </h4>
                     </div>
@@ -3289,11 +3461,16 @@ if (Test-Path $DIRECTORY) {
                     <div class="row pt-5">
                         <h4 id="winrebootlink">
                             <a href="#winrebootlink">
-                                <strong>Step 3.9 -</strong> WIN Reboot (Link)
+                                <strong>Step 3.10 -</strong> WIN Reboot (Link)
                             </a>
                         </h4>
                     </div>
 
+                    <div class="blueprint-description row">
+                        <p>
+                            
+                        </p>
+                    </div>
 
 
 
@@ -3313,7 +3490,7 @@ if (Test-Path $DIRECTORY) {
                     <div class="row pt-5">
                         <h4 id="winrmhttpswait120s">
                             <a href="#winrmhttpswait120s">
-                                <strong>Step 3.10 -</strong> WinRM HTTPS Wait 120s
+                                <strong>Step 3.11 -</strong> WinRM HTTPS Wait 120s
                             </a>
                         </h4>
                     </div>

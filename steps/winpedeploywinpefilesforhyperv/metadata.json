@@ -1,0 +1,20 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "4d331b63-e3e3-43a4-9778-b6eb5e93785b", 
+    "isBlueprint": false, 
+    "key": "winpedeploywinpefilesforhyperv", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kswimlibunmountbootwimifmounted"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "kswin2019deploywinpeisohyperv"
+        }
+    ], 
+    "name": "WinPE Deploy WinPE Files for HyperV", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

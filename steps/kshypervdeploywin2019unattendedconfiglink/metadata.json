@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": "Hyper-V Deploy Win2019 Unattended Config", 
-    "blueprintUuid": "438c6d03-430e-436b-9702-6ddad907f612", 
+    "blueprintUuid": "0056b4cf-46c6-411d-b0ac-3b9a849ab6e2", 
     "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
     "enabled": true, 
     "externalUuid4": "0056b4cf-46c6-411d-b0ac-3b9a849ab6e2", 
@@ -9,7 +9,7 @@
     "name": "KS Hyper-V Deploy Win2019 Unattended Config (Link)", 
     "parameterMap": [], 
     "projectName": "Kickstart WinPE", 
-    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

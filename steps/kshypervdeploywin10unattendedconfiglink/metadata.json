@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "Deploy Win10 Unattended Config", 
-    "blueprintUuid": "e6bb677e-ab79-4741-bd71-5d81051003e5", 
+    "blueprintUuid": "33b48494-85ba-4d5b-9ae7-36f6eb38c75b", 
     "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
     "enabled": true, 
     "externalUuid4": "33b48494-85ba-4d5b-9ae7-36f6eb38c75b", 
@@ -19,7 +19,7 @@
         }
     ], 
     "projectName": "WinPE Deploy", 
-    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

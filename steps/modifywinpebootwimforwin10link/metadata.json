@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "96d882a3-a1ca-4c50-9140-521b742c91c3", 
+    "blueprintUuid": "fcce9f48-684b-492b-ab96-af0fab23f310", 
     "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
     "enabled": true, 
     "externalUuid4": "8ca12624-430a-4f6f-8268-39c40e02c343", 
@@ -9,7 +9,7 @@
     "name": "Modify WinPE boot.wim for Win10 (Link)", 
     "parameterMap": [], 
     "projectName": "", 
-    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

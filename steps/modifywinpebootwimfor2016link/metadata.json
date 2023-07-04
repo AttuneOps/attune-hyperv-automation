@@ -1,15 +1,15 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": "Modify WinPE boot.wim", 
-    "blueprintUuid": "666de3ea-6e5f-4193-baac-14a0bc82a6de", 
+    "blueprintUuid": "30634e66-bc5a-44b4-a805-c8e578ca2ad9", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "604a482e-576f-4ca4-aa0f-62266e60bd89", 
-    "key": "modifywinpebootwimlink", 
-    "name": "Modify WinPE boot.wim (Link)", 
+    "key": "modifywinpebootwimfor2016link", 
+    "name": "Modify WinPE boot.wim for 2016 (Link)", 
     "parameterMap": [], 
     "projectName": "Kickstart WinPE", 
-    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

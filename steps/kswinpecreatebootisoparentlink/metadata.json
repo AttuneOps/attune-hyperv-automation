@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": "KS WinPE Create Boot ISO - parent", 
-    "blueprintUuid": "18e95bc7-525c-4705-909b-da70092f570f", 
+    "blueprintUuid": "0bd52211-1eff-4f24-84d5-803758dafb7e", 
     "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
     "enabled": true, 
     "externalUuid4": "0bd52211-1eff-4f24-84d5-803758dafb7e", 
@@ -9,7 +9,7 @@
     "name": "KS WinPE Create Boot ISO - parent (Link)", 
     "parameterMap": [], 
     "projectName": "Kickstart WinPE", 
-    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
+    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

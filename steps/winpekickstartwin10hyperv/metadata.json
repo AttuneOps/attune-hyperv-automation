@@ -12,7 +12,7 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "winpedeploywinpefilesforhypervlink"
+            "stepKey": "ksextractwinpeisoparentlink"
         }, 
         {
             "order": 350, 
