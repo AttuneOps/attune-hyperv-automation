@@ -15,16 +15,16 @@
             "stepKey": "ksextractwinpeisoparentlink"
         }, 
         {
-            "order": 350, 
-            "stepKey": "kshypervdeploywin10unattendedconfiglink"
-        }, 
-        {
             "order": 400, 
-            "stepKey": "modifywinpebootwimforwin10link"
+            "stepKey": "kshypervdeploywin10unattendedconfiglink2"
         }, 
         {
             "order": 450, 
-            "stepKey": "kswinpecreatebootisoparentlink"
+            "stepKey": "modifywinpebootwimforwin10link"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "kswinpecreatebootisoparentlink2"
         }, 
         {
             "order": 550, 

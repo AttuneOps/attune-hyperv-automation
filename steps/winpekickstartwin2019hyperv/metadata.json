@@ -27,8 +27,8 @@
             "stepKey": "modifywinpebootwimfor2016link"
         }, 
         {
-            "order": 550, 
-            "stepKey": "kswinpecreatebootisoparentlink"
+            "order": 600, 
+            "stepKey": "kswinpecreatebootisoparentlink2"
         }, 
         {
             "order": 650, 

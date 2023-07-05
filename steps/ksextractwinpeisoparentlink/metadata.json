@@ -1,15 +1,15 @@
 {
     "actionOnStepFail": "stop", 
     "blueprintName": "WinPE Deploy WinPE Files for HyperV", 
-    "blueprintUuid": "28e12fac-95a3-46ed-98f8-c94a86733525", 
-    "cloneUrl": "https://gitlab.com/synerty-public/kickstarts/kickstart-winpe.git", 
+    "blueprintUuid": "94e87592-60b0-4851-b8c5-d47f6a734871", 
+    "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "4aa100d4-c008-40dd-97bc-7f9182e7cfef", 
     "key": "ksextractwinpeisoparentlink", 
     "name": "KS Extract WinPE ISO - Parent (Link)", 
     "parameterMap": [], 
     "projectName": "Kickstart WinPE", 
-    "projectUuid": "b3613394-8f4e-4ca5-a5e3-7c858c14b21f", 
+    "projectUuid": "37162d08-0a14-4314-af3c-1d505f90a3ee", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }
