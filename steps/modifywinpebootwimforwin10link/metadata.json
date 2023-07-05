@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "94e87592-60b0-4851-b8c5-d47f6a734871", 
+    "blueprintUuid": "96d882a3-a1ca-4c50-9140-521b742c91c3", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "8ca12624-430a-4f6f-8268-39c40e02c343", 
@@ -9,7 +9,7 @@
     "name": "Modify WinPE boot.wim for Win10 (Link)", 
     "parameterMap": [], 
     "projectName": "", 
-    "projectUuid": "37162d08-0a14-4314-af3c-1d505f90a3ee", 
+    "projectUuid": "2f345751-5de9-43cd-8e33-14156d2d9fbb", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

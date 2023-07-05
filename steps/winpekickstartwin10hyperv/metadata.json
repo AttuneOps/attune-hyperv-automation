@@ -16,7 +16,7 @@
         }, 
         {
             "order": 400, 
-            "stepKey": "kshypervdeploywin10unattendedconfiglink2"
+            "stepKey": "kshypervdeploywin10unattendedconfiglink"
         }, 
         {
             "order": 450, 
@@ -24,7 +24,7 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "kswinpecreatebootisoparentlink2"
+            "stepKey": "kswinpecreatebootisoparentlink"
         }, 
         {
             "order": 550, 
