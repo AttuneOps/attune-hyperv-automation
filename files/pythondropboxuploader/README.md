@@ -1,1 +1,0 @@
-This is for testing uploads using small files.

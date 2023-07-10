@@ -54,15 +54,6 @@ This Project contains the following Blueprints.
 
 
 
-### Backup Attune Export to Dropbox
-
-
-### Backup Export to Dropbox Small File Test
-
-
-### Backup Peek Export to Dropbox
-
-
 ### Enable WSMan on Attune
 
 
@@ -79,9 +70,6 @@ This Project contains the following Blueprints.
 
 
 ### Kickstart RHEL8.7+HyperV+UEFI
-
-
-### Refresh Dropbox Access Token
 
 
 ### WinPE Kickstart Win10+HyperV
@@ -101,12 +89,7 @@ This Project contains the following Blueprints.
 | Attune OS Build Server | Linux/Unix Node | `attuneosbuildserver` | This variable is used in the "Kickstart" build procedures, so the "Attune Server" can be used to build Attune servers. |
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` | The subnet that the various DevOps servers are in. |
 | Dropbox Access Token | Basic Credential | `dropboxaccesstoken` |  |
-| Dropbox App Key | Basic Credential | `dropboxappkey` |  |
-| Dropbox App Secret | Basic Credential | `dropboxappsecret` |  |
 | Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.<br>Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
-| Dropbox Refresh Token | Basic Credential | `dropboxrefreshtoken` |  |
-| Export Attune Version | Text | `exportattuneversion` |  |
-| Export Peek Version | Text | `exportpeekversion` |  |
 | HyperV Export Directory | Text | `hypervexportdirectory` |  |
 | HyperV Host | Windows Node | `hypervhost` |  |
 | HyperV Host User | Windows Credential | `hypervhostuser` |  |
@@ -140,9 +123,6 @@ This Project contains the following Blueprints.
 | ---- | ---- | ------- |
 | CentOS8 Boot ISO v8.4.2105 | Large Archives | This is from Kean's macbook attune on project "Build Peek V3 Cento08 Dev Node on Parallels" in file archive "CentOS8 Boot ISO v8.4.2105". |
 | CentOS8 Kickstart Config | Version Controlled Files | https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/performing_an_advanced_rhel_installation/kickstart-commands-and-options-reference_installing-rhel-as-an-experienced-user |
-| Python Dropbox Session Uploader - Attune | Version Controlled Files | Uses session to upload files up to 350 GB.<br>https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch<br>https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
-| Python Dropbox Session Uploader - Peek | Version Controlled Files | Uses session to upload files up to 350 GB.<br>https://dropbox-sdk-python.readthedocs.io/en/latest/api/dropbox.html#dropbox.dropbox_client.Dropbox.files_upload_session_finish_batch<br>https://stackoverflow.com/questions/40114056/how-to-use-dropbox-upload-session-for-files-larger-than-150mb |
-| Python Dropbox Uploader | Version Controlled Files | This is for testing uploads using small files. |
 | WinPE ISO for Windows 2019 Hyper-V | Large Archives | Taken from nzte1att2 file archive "WinPE 2019 ISO". |
 
 

@@ -1,7 +1,0 @@
-{
-    "externalUuid4": "18fefa7b-5b35-42ed-94b6-1f6b6a67338d", 
-    "key": "dropboxrefreshtoken", 
-    "name": "Dropbox Refresh Token", 
-    "showInPlan": true, 
-    "type": "c.s.s.b.phv.OsCred"
-}

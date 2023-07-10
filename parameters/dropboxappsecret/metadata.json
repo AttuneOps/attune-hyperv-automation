@@ -1,7 +1,0 @@
-{
-    "externalUuid4": "5a09983a-468c-4336-a1a8-264cfdc58dd3", 
-    "key": "dropboxappsecret", 
-    "name": "Dropbox App Secret", 
-    "showInPlan": true, 
-    "type": "c.s.s.b.phv.OsCred"
-}
