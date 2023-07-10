@@ -57,9 +57,6 @@ This Project contains the following Blueprints.
 ### Enable WSMan on Attune
 
 
-### Export Virtual Machine
-
-
 ### Hyper-V Blueprints
 
 
@@ -90,7 +87,6 @@ This Project contains the following Blueprints.
 | DMS Subnet | Network IPv4 Subnet | `dmssubnet` | The subnet that the various DevOps servers are in. |
 | Dropbox Access Token | Basic Credential | `dropboxaccesstoken` |  |
 | Dropbox Path | Text | `dropboxpath` | Dropbox path to upload files. This will be relative to the root Dropbox app path.<br>Example: ~/Synerty Dropbox/Kean Ooi/Apps/Hyper-V Exports |
-| HyperV Export Directory | Text | `hypervexportdirectory` |  |
 | HyperV Host | Windows Node | `hypervhost` |  |
 | HyperV Host User | Windows Credential | `hypervhostuser` |  |
 | Iso Folder | Text | `isofolder` |  |

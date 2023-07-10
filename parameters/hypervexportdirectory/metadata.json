@@ -1,7 +1,0 @@
-{
-    "externalUuid4": "1025c1f9-b005-439f-8cb1-8ba4b4df69fb", 
-    "key": "hypervexportdirectory", 
-    "name": "HyperV Export Directory", 
-    "showInPlan": true, 
-    "type": "c.s.s.b.phv.Text"
-}

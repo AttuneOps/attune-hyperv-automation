@@ -1,3 +1,0 @@
-$VM='{targetServer.name}'
-
-Export-VM -Name $VM -Path {hypervExportDirectory}
