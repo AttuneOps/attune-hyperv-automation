@@ -12,11 +12,11 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "ksextractwinpeisoparentlink"
+            "stepKey": "winpedeploywinpefilesforhypervlink"
         }, 
         {
             "order": 400, 
-            "stepKey": "kshypervdeploywin10unattendedconfiglink"
+            "stepKey": "ksdeploywin10unattendedconfiglink"
         }, 
         {
             "order": 450, 
